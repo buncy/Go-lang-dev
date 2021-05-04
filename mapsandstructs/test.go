@@ -10,6 +10,6 @@ func main() {
 
 	var userData = helpers.CreateUsersArray()
 	var employeeData = helpers.CreateEmployeesArray()
-	var results = helpers.MergeUsersAndEmployeesArray(userData, employeeData)
-	spew.Dump(results)
+	var results, combinedArray = helpers.MergeUsersAndEmployeesArray(userData, employeeData)
+	spew.Dump(results, combinedArray)
 }

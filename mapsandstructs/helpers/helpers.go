@@ -1,5 +1,7 @@
 package helpers
 
+import "sort"
+
 type UserData struct {
 	userId string
 	name   string
@@ -17,11 +19,23 @@ type EmployeeData struct {
 type CombinedData struct {
 	userId       string
 	name         string
-	height       int
+	Height       int
 	weight       int
 	employeeCode int
 	city         string
 	pinCode      int
+}
+
+type byHeight []CombinedData
+
+func (s byHeight) Len() int {
+	return len(s)
+}
+func (s byHeight) Swap(i, j int) {
+	s[i], s[j] = s[j], s[i]
+}
+func (s byHeight) Less(i, j int) bool {
+	return s[i].Height < s[j].Height
 }
 
 func CreateUsersArray() [5]UserData {
@@ -62,9 +76,9 @@ func CreateEmployeesArray() [5]EmployeeData {
 	return employeeDataArray
 }
 
-func MergeUsersAndEmployeesArray(userArray [5]UserData, employeeArray [5]EmployeeData) map[string]CombinedData {
+func MergeUsersAndEmployeesArray(userArray [5]UserData, employeeArray [5]EmployeeData) (map[string]CombinedData, byHeight) {
 
-	var combinedArray []CombinedData
+	var combinedArray byHeight
 
 	users := make(map[string]CombinedData)
 
@@ -72,7 +86,7 @@ func MergeUsersAndEmployeesArray(userArray [5]UserData, employeeArray [5]Employe
 		combinedArray = append(combinedArray, CombinedData{
 			userId: s.userId,
 			name:   s.name,
-			height: s.height,
+			Height: s.height,
 			weight: s.weight,
 		})
 
@@ -90,6 +104,7 @@ func MergeUsersAndEmployeesArray(userArray [5]UserData, employeeArray [5]Employe
 	for _, s := range combinedArray {
 		users[s.userId] = s
 	}
+	sort.Sort(combinedArray)
+	return users, combinedArray
 
-	return users
 }
