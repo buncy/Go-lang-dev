@@ -1,4 +1,4 @@
-module example.com/hello
+module github.com/buncy/test
 
 go 1.16
 require github.com/davecgh/go-spew v1.1.1
