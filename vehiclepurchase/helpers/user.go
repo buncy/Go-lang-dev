@@ -1,31 +1,29 @@
 package helpers
 
 type OwnedVehicles struct {
-	bikes []string
-	cars []string
+	Bikes []int
+	Cars  []int
 }
 type UserProfile struct {
-	id int
-	name string
-	moneyinpocket int
-	vehicle OwnedVehicles
+	Id            int
+	Name          string
+	Moneyinpocket int
+	Vehicle       OwnedVehicles
 }
 
+func User(setMoney int, personalVehicles OwnedVehicles) UserProfile {
 
-
-func User() UserProfile {
-	 
-	// bikes1:=make([]string){"bike1"}
-	// cars1 := make([]string){"car1"}
-
+	if len(personalVehicles.Bikes) == 0 && len(personalVehicles.Cars) == 0 {
+		personalVehicles = OwnedVehicles{
+			Bikes: []int{},
+			Cars:  []int{},
+		}
+	}
 	user1 := UserProfile{
-		id:101,
-		name: "Jake",
-		moneyinpocket: 1000,
-		vehicle:OwnedVehicles{
-			bikes:make([1]string){"bike1"},
-			cars:make([1]string){"car1"},
-		},
+		Id:            101,
+		Name:          "Jake",
+		Moneyinpocket: setMoney,
+		Vehicle:       personalVehicles,
 	}
 
 	return user1
