@@ -1,7 +1,5 @@
 package helpers
 
-import "fmt"
-
 func Purchase(user UserProfile) OwnedVehicles {
 
 	var bikes, cars = vehicles()
@@ -56,7 +54,7 @@ func Purchase(user UserProfile) OwnedVehicles {
 		return result
 
 	} else {
-		remainingCash := user.Moneyinpocket - bikes[indexOfBike].price + cars[indexOfCar].price
+		remainingCash := user.Moneyinpocket - cars[indexOfCar].price
 		maxBikeSpeed := 0
 		bestBike := 0
 		for _, v := range bikes {
@@ -64,7 +62,6 @@ func Purchase(user UserProfile) OwnedVehicles {
 				maxBikeSpeed = v.speed
 				bestBike = v.ID
 
-				fmt.Println(bestBike)
 			}
 
 		}
