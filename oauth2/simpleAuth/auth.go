@@ -15,6 +15,8 @@ var (
 	googleOauthConfig *oauth2.Config
 )
 
+//oauth file
+
 func init() {
 	googleOauthConfig = &oauth2.Config{
 		RedirectURL:  "http://localhost:3000/callback",
