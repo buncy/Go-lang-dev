@@ -1,8 +1,6 @@
-package main
+package helpers
 
-import (
-	"github.com/davecgh/go-spew/spew"
-)
+import "sort"
 
 type UserData struct {
 	userId string
@@ -21,19 +19,26 @@ type EmployeeData struct {
 type CombinedData struct {
 	userId       string
 	name         string
-	height       int
+	Height       int
 	weight       int
 	employeeCode int
 	city         string
 	pinCode      int
 }
 
-func main() {
+type byHeight []CombinedData
 
-	var results = mergeUsersAndEmployeesArray()
-	spew.Dump(results)
+func (s byHeight) Len() int {
+	return len(s)
 }
-func createUsersArray() [5]UserData {
+func (s byHeight) Swap(i, j int) {
+	s[i], s[j] = s[j], s[i]
+}
+func (s byHeight) Less(i, j int) bool {
+	return s[i].Height < s[j].Height
+}
+
+func CreateUsersArray() [5]UserData {
 
 	rob := UserData{userId: "user1", name: "rob", height: 156, weight: 55}
 	tim := UserData{"user2", "tim", 145, 58}
@@ -51,7 +56,8 @@ func createUsersArray() [5]UserData {
 
 	return userDataArray
 }
-func createEmployeesArray() [5]EmployeeData {
+
+func CreateEmployeesArray() [5]EmployeeData {
 
 	meta1 := EmployeeData{"user6", 11245, "pune", 14551}
 	meta2 := EmployeeData{"user7", 11235, "mumbai", 14255}
@@ -70,24 +76,22 @@ func createEmployeesArray() [5]EmployeeData {
 	return employeeDataArray
 }
 
-func mergeUsersAndEmployeesArray() map[string]CombinedData {
-	var userDataArray = createUsersArray()
-	var employeeDataArray = createEmployeesArray()
+func MergeUsersAndEmployeesArray(userArray [5]UserData, employeeArray [5]EmployeeData) (map[string]CombinedData, byHeight) {
 
-	var combinedArray []CombinedData
+	var combinedArray byHeight
 
 	users := make(map[string]CombinedData)
 
-	for _, s := range userDataArray {
+	for _, s := range userArray {
 		combinedArray = append(combinedArray, CombinedData{
 			userId: s.userId,
 			name:   s.name,
-			height: s.height,
+			Height: s.height,
 			weight: s.weight,
 		})
 
 	}
-	for _, s := range employeeDataArray {
+	for _, s := range employeeArray {
 		combinedArray = append(combinedArray, CombinedData{
 			userId:       s.userId,
 			employeeCode: s.employeeCode,
@@ -100,6 +104,7 @@ func mergeUsersAndEmployeesArray() map[string]CombinedData {
 	for _, s := range combinedArray {
 		users[s.userId] = s
 	}
+	sort.Sort(combinedArray)
+	return users, combinedArray
 
-	return users
 }
