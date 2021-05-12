@@ -1,0 +1,645 @@
+1
+00:00:00,34 --> 00:00:00,76
+No 
+
+2
+00:00:01,24 --> 00:00:05,61
+Please type a statement for a witness statement addresses 
+
+3
+00:00:05,61 --> 00:00:09,6
+Simple solicitors address one adjust to adjust three and then 
+
+4
+00:00:09,6 --> 00:00:14,66
+post good underneath Date is 19 February 2010 
+
+5
+00:00:15,04 --> 00:00:16,69
+Your reference is A 
+
+6
+00:00:16,69 --> 00:00:17,32
+For alpha B 
+
+7
+00:00:17,32 --> 00:00:18,08
+For bravo C 
+
+8
+00:00:18,08 --> 00:00:19,96
+For charlie slash P 
+
+9
+00:00:19,96 --> 00:00:20,75
+For papa Q 
+
+10
+00:00:20,75 --> 00:00:26,39
+For Quebec alpha Romeo slash 12 slash 345 hour references 
+
+11
+00:00:26,4 --> 00:00:26,57
+A 
+
+12
+00:00:26,57 --> 00:00:27,45
+For alpha C 
+
+13
+00:00:27,45 --> 00:00:28,15
+For charlie C 
+
+14
+00:00:28,15 --> 00:00:28,74
+For charlie 
+
+15
+00:00:28,75 --> 00:00:34,36
+9876 Inspector of the next line is joe blogs claim 
+
+16
+00:00:34,36 --> 00:00:34,71
+technician 
+
+17
+00:00:34,71 --> 00:00:38,19
+On the next line tom smith underneath that please put 
+
+18
+00:00:38,2 --> 00:00:42,38
+a rectangle box with client interviewed in inverted commas 
+
+19
+00:00:42,39 --> 00:00:46,98
+Next line here says we your client Henry jones 
+
+20
+00:00:46,99 --> 00:00:50,74
+Next line accident data 12 of May 2000 and eight 
+
+21
+00:00:50,75 --> 00:00:51,77
+paragraph 
+
+22
+00:00:51,78 --> 00:00:53,79
+We are pleased to confirm that we have interviewed your 
+
+23
+00:00:53,79 --> 00:00:55,89
+client and as such we are pleased to supply our 
+
+24
+00:00:55,89 --> 00:01:00,47
+findings to you in the following manner paragraph please type 
+
+25
+00:01:00,48 --> 00:01:04,5
+clients underlined and bold as the head in New paragraph 
+
+26
+00:00:00,undefined --> 00:01:04,5
+
+
+27
+00:01:04,5 --> 00:01:06,29
+Henry Jones is 32 years of age 
+
+28
+00:01:06,29 --> 00:01:08,3
+He lives with his wife and four Children and is 
+
+29
+00:01:08,3 --> 00:01:12,14
+currently unemployed paragraph and gave his evidence quite well 
+
+30
+00:01:12,14 --> 00:01:12,76
+Full stop 
+
+31
+00:01:13,24 --> 00:01:15,67
+He has a confident nature and a polite dispossession for 
+
+32
+00:01:15,67 --> 00:01:16,3
+stuff 
+
+33
+00:01:16,31 --> 00:01:18,68
+He answered all questions asked of him and we were 
+
+34
+00:01:18,68 --> 00:01:21,26
+not given any particular reason to doubt the evidence he 
+
+35
+00:01:21,26 --> 00:01:23,12
+offered throughout the interview process 
+
+36
+00:01:23,67 --> 00:01:24,46
+Full stop 
+
+37
+00:01:25,04 --> 00:01:28,61
+Next heading is bold underline and his evidence 
+
+38
+00:01:28,62 --> 00:01:29,96
+New paragraph 
+
+39
+00:01:29,97 --> 00:01:33,17
+We would refer to the attached statement which you will 
+
+40
+00:01:33,17 --> 00:01:35,38
+wish to consider in its entirety 
+
+41
+00:01:35,39 --> 00:01:36,68
+Come up briefly 
+
+42
+00:01:36,68 --> 00:01:39,17
+The main points can be summarized as follows 
+
+43
+00:01:40,34 --> 00:01:44,01
+Next head in a full stop and then accident circumstances 
+
+44
+00:00:00,undefined --> 00:01:44,01
+
+
+45
+00:01:44,02 --> 00:01:48,57
+M bold not underlined Next paragraph please bullet point these 
+
+46
+00:00:00,undefined --> 00:01:48,57
+
+
+47
+00:01:48,58 --> 00:01:51,56
+He was working for simple signs LTD as a factory 
+
+48
+00:01:51,56 --> 00:01:55,55
+operative and had been since the 9th the 1st 2007 
+
+49
+00:00:00,undefined --> 00:01:55,55
+
+
+50
+00:01:56,24 --> 00:01:57,23
+The full stop 
+
+51
+00:01:57,24 --> 00:02:00,41
+The company manufactured road signs and he states he did 
+
+52
+00:02:00,41 --> 00:02:03,27
+not receive any formal training before commencing his job full 
+
+53
+00:02:03,27 --> 00:02:03,67
+stop 
+
+54
+00:02:03,67 --> 00:02:04,81
+Next bullet point 
+
+55
+00:02:04,97 --> 00:02:08,82
+The incident happened on 12 May 2000 and eight at 
+
+56
+00:02:08,83 --> 00:02:11,92
+10:30 a.m. Is normal job will be to place templates 
+
+57
+00:02:11,92 --> 00:02:14,83
+on metal road signs but this was not required 
+
+58
+00:02:14,83 --> 00:02:16,37
+And so he was told to pull the feet off 
+
+59
+00:02:16,38 --> 00:02:19,25
+barriers barriers are used by construction companies and they needed 
+
+60
+00:02:19,25 --> 00:02:21,48
+to be re sprayed yellow full stop 
+
+61
+00:02:21,49 --> 00:02:23,95
+He was told by a supervisor come with john smith 
+
+62
+00:02:23,95 --> 00:02:26,06
+come out to pull the barriers off their supporting feet 
+
+63
+00:02:26,06 --> 00:02:28,65
+instead of using a sledgehammer come out as it was 
+
+64
+00:02:28,65 --> 00:02:31,36
+suggested that a sledgehammer would bring the fees for stop 
+
+65
+00:00:00,undefined --> 00:02:31,36
+
+
+66
+00:02:31,74 --> 00:02:34,17
+It was also suggested that a machine could be used 
+
+67
+00:02:34,17 --> 00:02:36,46
+but it was cheaper to use manual labor for stuff 
+
+68
+00:00:00,undefined --> 00:02:36,46
+
+
+69
+00:02:36,47 --> 00:02:37,19
+New bullet points 
+
+70
+00:02:37,74 --> 00:02:38,17
+He was on 
+
+71
+00:02:38,17 --> 00:02:40,74
+His third barrier was pulling it out of its feet 
+
+72
+00:02:40,74 --> 00:02:42,97
+when he told the shoulder muscles in his left shoulder 
+
+73
+00:02:42,98 --> 00:02:45,73
+full stop no bullet point he spoke to john smith 
+
+74
+00:02:45,73 --> 00:02:47,58
+about his injury who said he was just trying to 
+
+75
+00:02:47,58 --> 00:02:49,05
+get out of the job full stuff 
+
+76
+00:02:49,06 --> 00:02:52,0
+However when your client stated that he needed to go 
+
+77
+00:02:52,0 --> 00:02:55,16
+to hospital come out john Clyde get yourself away then 
+
+78
+00:02:55,61 --> 00:02:58,36
+get yourself away then in inverted thomas please 
+
+79
+00:02:59,14 --> 00:03:02,81
+Mhm New Point he is not aware if the incident 
+
+80
+00:03:02,82 --> 00:03:05,88
+was reported in the accident report work only is not 
+
+81
+00:03:05,88 --> 00:03:10,56
+aware of any health and safety executive investigation full stop 
+
+82
+00:00:00,undefined --> 00:03:10,56
+
+
+83
+00:03:10,56 --> 00:03:11,34
+New bullet points 
+
+84
+00:03:11,34 --> 00:03:13,3
+He believed the interesting could have been avoided if he 
+
+85
+00:03:13,3 --> 00:03:15,56
+had taken the feet off with a sledgehammer for stop 
+
+86
+00:00:00,undefined --> 00:03:15,56
+
+
+87
+00:03:15,57 --> 00:03:18,11
+He also reiterated that the feet would normally be taken 
+
+88
+00:03:18,12 --> 00:03:21,62
+off with the machine but in inverted commas john smith 
+
+89
+00:03:21,62 --> 00:03:23,62
+wanted me to pull them off because it was much 
+
+90
+00:03:23,62 --> 00:03:26,44
+cheaper clothes inverted commas new bullet points 
+
+91
+00:03:26,45 --> 00:03:29,04
+He states there was no health and safety policy in 
+
+92
+00:03:29,04 --> 00:03:31,32
+place at all at all at the time of the 
+
+93
+00:03:31,32 --> 00:03:34,37
+incident and he had never signed any health and safety 
+
+94
+00:03:34,37 --> 00:03:35,86
+documents will stop 
+
+95
+00:03:36,34 --> 00:03:39,3
+Next head in is be forced up and then Quantum 
+
+96
+00:03:39,3 --> 00:03:42,11
+please put that in bold And then start a new 
+
+97
+00:03:42,11 --> 00:03:42,94
+bullet point 
+
+98
+00:03:43,09 --> 00:03:46,63
+He arrived at hospital at 12:30 PM and was seen 
+
+99
+00:03:46,63 --> 00:03:47,35
+by a doctor 
+
+100
+00:03:47,74 --> 00:03:49,81
+He was given a support for his shoulder and told 
+
+101
+00:03:49,81 --> 00:03:51,37
+to take painkillers full stuff 
+
+102
+00:03:51,38 --> 00:03:54,41
+He was diagnosed as he had torn muscles in his 
+
+103
+00:03:54,41 --> 00:03:57,1
+left shoulder and had tissue damage full stuff 
+
+104
+00:03:57,11 --> 00:03:59,17
+He was told to get a signal from his GP 
+
+105
+00:03:59,17 --> 00:03:59,95
+full stuff 
+
+106
+00:04:00,34 --> 00:04:03,97
+Next bullet points ultimately he got a signature for some 
+
+107
+00:04:03,98 --> 00:04:07,15
+three stroke four weeks for stuff and the bullet point 
+
+108
+00:00:00,undefined --> 00:04:07,15
+
+
+109
+00:04:07,16 --> 00:04:08,94
+He still continues to see his G 
+
+110
+00:04:08,94 --> 00:04:09,18
+P 
+
+111
+00:04:09,18 --> 00:04:12,05
+Once each month and is prescribed numerous medications 
+
+112
+00:04:12,06 --> 00:04:14,96
+He has not had any physiotherapy and continues to have 
+
+113
+00:04:14,96 --> 00:04:18,15
+problems sleeping and can't do any heavy lifting full stuff 
+
+114
+00:00:00,undefined --> 00:04:18,15
+
+
+115
+00:04:18,16 --> 00:04:21,61
+He describes the difficulties he has in cold weather And 
+
+116
+00:04:21,61 --> 00:04:24,59
+in connection with his social life and domestic duties and 
+
+117
+00:04:24,59 --> 00:04:26,84
+as a result comer he has been unemployed for the 
+
+118
+00:04:26,84 --> 00:04:28,39
+last 13 months 
+
+119
+00:04:29,74 --> 00:04:31,52
+New bullet points he did get a job as a 
+
+120
+00:04:31,52 --> 00:04:34,53
+large over in June 2009 but only lasted four days 
+
+121
+00:04:34,53 --> 00:04:35,86
+due to his shoulder injury 
+
+122
+00:04:35,86 --> 00:04:36,55
+Full stop 
+
+123
+00:04:37,14 --> 00:04:38,31
+End of the bullet points 
+
+124
+00:04:38,31 --> 00:04:41,42
+New head in opinion stroke recommendation which is bold and 
+
+125
+00:04:41,42 --> 00:04:44,1
+underline new paragraph not bullet pointed 
+
+126
+00:04:44,11 --> 00:04:46,15
+The claimant suggests that there was no health and safety 
+
+127
+00:04:46,15 --> 00:04:49,14
+policy in force at his place of employment and his 
+
+128
+00:04:49,15 --> 00:04:51,66
+and he was never given any manual handling trading 
+
+129
+00:04:52,04 --> 00:04:54,46
+He describes being instructed to pull the barriers out of 
+
+130
+00:04:54,46 --> 00:04:57,16
+their supporting feet by hand but suggests that on occasion 
+
+131
+00:04:57,17 --> 00:04:59,94
+this would have been performed by a machine but it 
+
+132
+00:04:59,94 --> 00:05:03,6
+was in inverted commas cheaper to use manual labor full 
+
+133
+00:05:03,6 --> 00:05:03,87
+stop 
+
+134
+00:05:03,88 --> 00:05:06,18
+Furthermore he had been told not to use a sledgehammer 
+
+135
+00:05:06,18 --> 00:05:08,74
+to dislodge the feet as it had the potential of 
+
+136
+00:05:08,75 --> 00:05:09,88
+damaging them full stuff 
+
+137
+00:05:09,89 --> 00:05:10,56
+New paragraph 
+
+138
+00:05:10,94 --> 00:05:13,32
+If indeed he had not gone through any manual handling 
+
+139
+00:05:13,32 --> 00:05:16,97
+training combat and clearly his employers will have a case 
+
+140
+00:05:16,97 --> 00:05:17,46
+to answer 
+
+141
+00:05:17,47 --> 00:05:20,92
+May well struggle to evidence any risk assessment relating to 
+
+142
+00:05:20,92 --> 00:05:23,91
+the activities he was undertaking at the material time 
+
+143
+00:05:23,92 --> 00:05:24,97
+Full stop 
+
+144
+00:05:24,98 --> 00:05:29,05
+New heading is time sheet which is bold underlined under 
+
+145
+00:05:29,05 --> 00:05:32,56
+that we have engaged upon this file as follows 
+
+146
+00:05:33,34 --> 00:05:35,63
+Uh please put this in bullet points 
+
+147
+00:05:35,64 --> 00:05:41,14
+Final administration and then tap across uh then hyphen uh 
+
+148
+00:05:41,15 --> 00:05:42,12
+40 minutes 
+
+149
+00:05:42,13 --> 00:05:44,38
+Next bullet point Interview with your appliance 
+
+150
+00:05:44,38 --> 00:05:46,25
+Hyphen one hour 15 minutes 
+
+151
+00:05:46,26 --> 00:05:51,96
+Next bullet point technical compilation hyphen 40 minutes finalization 
+
+152
+00:05:51,96 --> 00:05:53,56
+Hyphen 20 minutes 
+
+153
+00:05:53,64 --> 00:05:55,65
+Next header is enclosures 
+
+154
+00:05:55,65 --> 00:05:56,67
+Please bolden dilemma 
+
+155
+00:05:56,67 --> 00:05:59,98
+And we enclose the following again bullet points a typed 
+
+156
+00:05:59,99 --> 00:06:01,5
+version of the draft statement 
+
+157
+00:06:01,5 --> 00:06:03,92
+We have taken the next bullet point a note of 
+
+158
+00:06:03,92 --> 00:06:04,65
+our feet 
+
+159
+00:06:04,66 --> 00:06:08,13
+Uh Next line if we can be of any further 
+
+160
+00:06:08,13 --> 00:06:10,61
+assistance please do not hesitate to let us know yours 
+
+161
+00:06:10,61 --> 00:06:11,06
+faithfully 
+
+

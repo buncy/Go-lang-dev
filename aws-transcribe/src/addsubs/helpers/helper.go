@@ -6,6 +6,7 @@ import (
 	"io/ioutil"
 	"log"
 	"math"
+	"path/filepath"
 	"strconv"
 
 	"github.com/davecgh/go-spew/spew"
@@ -15,7 +16,8 @@ func Convert(localFilePath string) (string, error) {
 
 	// Read entire file content, giving us little control but
 	// making it very simple. No need to close the file.
-	body, err := ioutil.ReadFile(localFilePath)
+	absPath, _ := filepath.Abs(localFilePath)
+	body, err := ioutil.ReadFile(absPath)
 	if err != nil {
 
 		spew.Println("error")
@@ -37,86 +39,60 @@ func Convert(localFilePath string) (string, error) {
 	// we unmarshal our byteArray which contains our
 	// jsonFile's content into 'awstranscript' which we defined above
 	json.Unmarshal(body, &awstranscript)
-
+	fmt.Println("starting srt ")
 	var transcription []Item
 	transcription = awstranscript.Results.Items
-
-	var index, sequence int = 0, 0
-	var srtinfo, subdetail, subtitle, sttime, classification, text, entime string
-	var strlen int
-	var firstrow bool
+	//transcriptionLength := len(transcription)
+	var index, number, sequence int = 0, 1, 1 //FIXME:changed from 0,0
+	var starttime = ""
+	var subdetail, subtitle, endtime string
 
 	for index = 0; index < len(transcription); {
 		//Variable initiation for length of subtitle text, sequence number if its the first line and the subtitle text
 
-		sequence++
-		firstrow = true
-		subtitle = ""
+		// sequence++
 
-		//Grab the start time, convert it to a number, then convert the number an SRT valid time string
-		sttime = transcription[index].Starttime
-		fsttime, err := strconv.ParseFloat(sttime, 64)
-		if err != nil {
-			fmt.Println(err, "================", sttime)
-		}
-		sttime = Getsrttime(fsttime)
+		// subtitle = ""
+		//fmt.Println("started srt loop")
 
-		/*Repeat this until we have either reached the last item in results
-		#or the length of the lines we are reading is greater than 64 characters */
-
-		for strlen = 0; (strlen < 64) && (index < len(transcription)); {
-			text = transcription[index].Alternatives[0].Content
-			strlen += len(text)
-
-			switch classification {
-
-			case "punctuation":
-				if len(subtitle) > 0 {
-					runes := []rune(subtitle)
-					subtitle = string(runes[1 : len(subtitle)-1])
-				} else {
-					subtitle += text
+		if transcription[index].Classification == "pronunciation" {
+			if starttime == "" {
+				//Grab the start time, convert it to a number, then convert the number an SRT valid time string
+				starttime = transcription[index].Starttime
+				fstarttime, err := strconv.ParseFloat(starttime, 64)
+				if err != nil {
+					fmt.Println(err, "================", starttime)
 				}
-			default:
-				subtitle += (text + " ")
+				starttime = Getsrttime(fstarttime)
 			}
 
-			//If the length of the current string is greater than 32 and this
-			//is the first line of the sequence, then add a return character to it
+			//set endtime
 
-			if (strlen > 32) && (firstrow == true) {
-				subtitle += "\n"
-				firstrow = false
+			endtime = transcription[index].Endtime
+			fendtime, err := strconv.ParseFloat(endtime, 64)
+			if err != nil {
+				fmt.Println(err, "================", endtime)
 			}
+			endtime = Getsrttime(fendtime)
 
-			/*If the last character is a '.', then we need to set
-			the end time attribute to the previous indexes one
-			since punctuation characters to not have a time stamp*/
-
-			if classification == "punctuation" {
-				entime = transcription[index-1].Endtime
-			} else {
-				entime = transcription[index].Endtime
-			}
-
-			fsttime, err = strconv.ParseFloat(entime, 64)
-			entime = Getsrttime(fsttime)
-
-			index++
+			subtitle += transcription[index].Alternatives[0].Content + " "
+			sequence++
 		}
-		//Setup the string that is refers to these two
-		//lines in SRT format
+		if transcription[index].Classification == "punctuation" && transcription[index].Alternatives[0].Content == "." {
+			//subtitle += transcription[index].Alternatives[0].Content
+			subdetail += fmt.Sprintf("%d\n%s --> %s\n%s\n\n", sequence, starttime, endtime, subtitle)
+			subtitle = ""
+			starttime = ""
+			number++
+			sequence = 1
+		}
 
-		subdetail = fmt.Sprintf("\n%d\n%s --> %s\n%s\n", sequence, sttime, entime, subtitle)
-
-		//Append this to the existing string
-		srtinfo += subdetail
-
+		index++
 	}
 
-	//log.Printf(srtinfo)
+	log.Printf(subdetail)
 
-	return srtinfo, nil
+	return subdetail, nil
 }
 
 // Getsrttime - Generates an SRT format time string
