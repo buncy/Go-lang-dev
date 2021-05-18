@@ -44,16 +44,12 @@ func Convert(localFilePath string) (string, error) {
 	transcription = awstranscript.Results.Items
 	//transcriptionLength := len(transcription)
 	var index, number, sequence int = 0, 1, 1 //FIXME:changed from 0,0
+	wordCount := 13
 	var starttime = ""
 	var subdetail, subtitle, endtime string
-
+	//tempStartTime := ""
 	for index = 0; index < len(transcription); {
 		//Variable initiation for length of subtitle text, sequence number if its the first line and the subtitle text
-
-		// sequence++
-
-		// subtitle = ""
-		//fmt.Println("started srt loop")
 
 		if transcription[index].Classification == "pronunciation" {
 			if starttime == "" {
@@ -78,15 +74,28 @@ func Convert(localFilePath string) (string, error) {
 			subtitle += transcription[index].Alternatives[0].Content + " "
 			sequence++
 		}
-		if transcription[index].Classification == "punctuation" && transcription[index].Alternatives[0].Content == "." {
+		if transcription[index].Classification == "punctuation" {
 			//subtitle += transcription[index].Alternatives[0].Content
-			subdetail += fmt.Sprintf("%d\n%s --> %s\n%s\n\n", sequence, starttime, endtime, subtitle)
+			text := []rune(subtitle)
+			subtitle = string(text) + transcription[index].Alternatives[0].Content
+			subdetail += fmt.Sprintf("%d\n%s --> %s\n%s\n\n", number, starttime, endtime, subtitle)
+			//tempStartTime = starttime
 			subtitle = ""
 			starttime = ""
+
+			number++
+
+		}
+
+		if sequence > wordCount {
+			subdetail += fmt.Sprintf("%d\n%s --> %s\n%s\n\n", number, starttime, endtime, subtitle)
+			subtitle = ""
+			starttime = ""
+			//tempStartTime = ""
 			number++
 			sequence = 1
 		}
-
+		number++
 		index++
 	}
 

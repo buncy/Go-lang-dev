@@ -11,10 +11,10 @@ import (
 )
 
 func main() {
-	inputFile := flag.String("inputFilePath", "./media/hindi.mp4", "*required field, The input mp4 file without subtitles")
-	jsonFile := flag.String("jsonFile", "./media/hindi.json", "*required field, The aws-transcribe json file")
-	srtFile := flag.String("srtFile", "./media/hindiscript.srt", "*required field, The name of the srt file")
-	outputFile := flag.String("ouputFile", "./media/hindisrt.mp4", "*required field, The name of the output mp4 file")
+	inputFile := flag.String("inputFilePath", "./media/telugu.mp4", "*required field, The input mp4 file without subtitles")
+	jsonFile := flag.String("jsonFile", "./media/telugu.json", "*required field, The aws-transcribe json file")
+	srtFile := flag.String("srtFile", "./media/teluguscript.srt", "*required field, The name of the srt file")
+	outputFile := flag.String("ouputFile", "./media/telugusrt.mp4", "*required field, The name of the output mp4 file")
 	flag.Parse()
 
 	srtpath, _ := filepath.Abs(*srtFile)
