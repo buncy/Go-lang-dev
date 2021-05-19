@@ -23,9 +23,9 @@ var (
 		TokenURL:  "https://zoom.us/oauth/token",
 	}
 	oauthConfig = &oauth2.Config{
-		RedirectURL:  "https://d156272b00bd.ngrok.io/callback",
-		ClientID:     "LTWLsXfKRvmjvA_K1lGnEw",
-		ClientSecret: "uEPN2thClfUrCe7FUzdH4KkpZXSZ8TgB",
+		RedirectURL:  "https://abd7feb4151d.ngrok.io/callback",
+		ClientID:     "2jIPrcuUS3iKLtzm3TQRpA",
+		ClientSecret: "5LSKtiJrvFW90paOAX6QAdlg60VkPuM3",
 		Scopes:       []string{"https://www.googleapis.com/auth/userinfo.email"},
 		Endpoint:     endPoint,
 	}
@@ -66,7 +66,7 @@ func handleCallback(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	//spew.Dump(token)
-	userEmail := "karthik138105@gmail.com" //TODO: change this user email with the one which has the recordings
+	userEmail := "gabdo@intecorp.net" //TODO: change this user email with the one which has the recordings
 	getUserURL := "https://api.zoom.us/v2/users/" + userEmail
 
 	//get the user info
