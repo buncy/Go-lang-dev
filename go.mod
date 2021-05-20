@@ -19,6 +19,8 @@ require (
 	github.com/james-bowman/sparse v0.0.0-20210412103209-04b5e68c244d
 	github.com/jdkato/prose/v2 v2.0.0
 	github.com/kljensen/snowball v0.6.0
+	github.com/lestrrat-go/jwx v1.2.0 // indirect
+	github.com/lestrrat-go/pdebug v0.0.0-20200204225717-4d6bd78da58d // indirect
 	github.com/nlpodyssey/spago v0.6.0 // indirect
 	github.com/spaolacci/murmur3 v1.1.0
 	github.com/stretchr/testify v1.7.0 // indirect

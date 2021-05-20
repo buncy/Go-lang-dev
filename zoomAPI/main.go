@@ -139,8 +139,8 @@ func getRecordings(acess_token string, userID string) string {
 	res, _ := client.Do(req)
 	defer res.Body.Close()
 	content, _ := ioutil.ReadAll(res.Body)
-	err = json.Unmarshal(content, &user_recordings)
-	fmt.Print("recordings response ")
+	json.Unmarshal(content, &user_recordings)
+	fmt.Printf("recordings response %s", string(content))
 
 	for _, v := range user_recordings.Meetings {
 		file_name := v.Topic
