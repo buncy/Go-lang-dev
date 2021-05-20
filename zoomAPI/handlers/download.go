@@ -12,12 +12,14 @@ func DownloadFile(filepath string, url string, access_token string, meeting_id s
 	// Get the data
 	// optional_url := "https://api.zoom.us/v2/meetings/" + meeting_id + "/recordings"
 
-	req, err := http.NewRequest("GET", url, nil) //FIXME: if this url dosen't work use the optional_url and try
+	urlWithToken := url + "?access_token=" + access_token
+	fmt.Println(urlWithToken)
+	req, err := http.NewRequest("GET", urlWithToken, nil) //FIXME: if this url dosen't work use the optional_url and try
 	if err != nil {
 		return err
 	}
-	authValue := "Bearer " + access_token
-	req.Header.Add("Authorization", authValue)
+	// authValue := "Bearer " + access_token
+	// req.Header.Add("Authorization", authValue)
 
 	resp, err := http.DefaultClient.Do(req)
 	fmt.Println("Status code for "+filepath+" is ", resp.StatusCode, resp.Status)

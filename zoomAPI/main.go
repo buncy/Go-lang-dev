@@ -46,7 +46,7 @@ var (
 	}
 	oauthConfig = &oauth2.Config{
 		//RedirectURL: "https://abd7feb4151d.ngrok.io/callback",
-		RedirectURL:  "https://aa8561571228.ngrok.io/callback",
+		RedirectURL:  "https://aec573c036d2.ngrok.io/callback",
 		ClientID:     "RagRtzP8TLyIbjzYVGIsFQ",
 		ClientSecret: "F65tiTOVh1HWT38Tc8dZZunvKa2PGsK2",
 		Scopes:       []string{"https://www.googleapis.com/auth/userinfo.email"},
