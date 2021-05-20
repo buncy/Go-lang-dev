@@ -6,13 +6,33 @@ import (
 	"fmt"
 	"io/ioutil"
 	"net/http"
+	"path/filepath"
+	"strings"
 	"sync"
+
+	handler "golangdev/zoomAPI/handlers"
 
 	"golang.org/x/oauth2"
 )
 
 type User struct {
 	ID string `json:"id"`
+}
+
+type Recordings struct {
+	meetings []Meeting
+}
+
+type Meeting struct {
+	UUID            string `json:"uuid"`
+	topic           string
+	recording_files []Recording
+}
+
+type Recording struct {
+	file_type    string
+	file_size    int
+	download_url string
 }
 
 var (
@@ -23,13 +43,16 @@ var (
 		TokenURL:  "https://zoom.us/oauth/token",
 	}
 	oauthConfig = &oauth2.Config{
-		RedirectURL:  "https://abd7feb4151d.ngrok.io/callback",
+		//RedirectURL: "https://abd7feb4151d.ngrok.io/callback",
+		RedirectURL:  "https://d156272b00bd.ngrok.io/callback",
 		ClientID:     "2jIPrcuUS3iKLtzm3TQRpA",
 		ClientSecret: "5LSKtiJrvFW90paOAX6QAdlg60VkPuM3",
 		Scopes:       []string{"https://www.googleapis.com/auth/userinfo.email"},
 		Endpoint:     endPoint,
 	}
 	client = &http.Client{}
+
+	user_recordings Recordings
 )
 
 func main() {
@@ -114,11 +137,27 @@ func getRecordings(acess_token string, userID string) string {
 	res, _ := client.Do(req)
 	defer res.Body.Close()
 	content, _ := ioutil.ReadAll(res.Body)
+	json.Unmarshal(content, &user_recordings)
 	fmt.Printf("recordings response %s", string(content))
+
+	for _, v := range user_recordings.meetings {
+		file_name := v.topic
+		meetingID := v.UUID
+		for _, rec := range v.recording_files {
+			file_type := rec.file_type
+			file_name_with_ext := file_name + "." + strings.ToLower(file_type)
+			file_path, err := filepath.Abs(filepath.Join("./Downloads/", file_name_with_ext))
+			if err != nil {
+				fmt.Errorf("error creating download file path: %s", err.Error())
+			}
+			error := handler.DownloadFile(file_path, rec.download_url, acess_token, meetingID)
+
+			if error != nil {
+				fmt.Errorf("error downloading file: %s", err.Error())
+			}
+		}
+	}
+
 	return string(content)
 
 }
-
-// func handleUser(w http.ResponseWriter, r *http.Request)  {
-
-// }
