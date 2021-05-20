@@ -16,8 +16,8 @@ func DownloadFile(filepath string, url string, access_token string, meeting_id s
 	if err != nil {
 		return err
 	}
-	// authValue := "Bearer " + access_token
-	// req.Header.Add("Authorization", authValue)
+	authValue := "Bearer " + access_token
+	req.Header.Add("Authorization", authValue)
 
 	resp, err := http.DefaultClient.Do(req)
 	fmt.Println("Status code for "+filepath+" is ", resp.StatusCode, resp.Status)

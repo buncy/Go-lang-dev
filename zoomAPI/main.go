@@ -11,6 +11,7 @@ import (
 	"sync"
 
 	handler "golangdev/zoomAPI/handlers"
+	zoomJWT "golangdev/zoomAPI/jwt"
 
 	"github.com/davecgh/go-spew/spew"
 	"golang.org/x/oauth2"
@@ -45,7 +46,7 @@ var (
 	}
 	oauthConfig = &oauth2.Config{
 		//RedirectURL: "https://abd7feb4151d.ngrok.io/callback",
-		RedirectURL:  "https://f2cc59d0864e.ngrok.io/callback",
+		RedirectURL:  "https://aa8561571228.ngrok.io/callback",
 		ClientID:     "RagRtzP8TLyIbjzYVGIsFQ",
 		ClientSecret: "F65tiTOVh1HWT38Tc8dZZunvKa2PGsK2",
 		Scopes:       []string{"https://www.googleapis.com/auth/userinfo.email"},
@@ -121,6 +122,7 @@ func handleCallback(w http.ResponseWriter, r *http.Request) {
 	//parse user info
 	json.Unmarshal(content, &user1)
 	spew.Dump(user1)
+
 	userRecordings := getRecordings(token.AccessToken, user1.ID)
 
 	fmt.Fprintf(w, " this is the userID %s \n these are the user recordings %s", user1.ID, string(userRecordings))
@@ -142,6 +144,11 @@ func getRecordings(acess_token string, userID string) string {
 	json.Unmarshal(content, &user_recordings)
 	fmt.Printf("recordings response %s", string(content))
 
+	//get the JWT token
+	jwtToken, err := zoomJWT.CreateJWT()
+	if err != nil {
+		fmt.Errorf("getting JWT failed: %s", err.Error())
+	}
 	for _, v := range user_recordings.Meetings {
 		file_name := v.Topic
 		meetingID := v.UUID
@@ -154,7 +161,7 @@ func getRecordings(acess_token string, userID string) string {
 			}
 			go func(recording Recording) {
 				fmt.Println("Starting download......", file_path)
-				err := handler.DownloadFile(file_path, recording.DownloadUrl, acess_token, meetingID)
+				err := handler.DownloadFile(file_path, recording.DownloadUrl, jwtToken, meetingID)
 				if err != nil {
 					fmt.Errorf("error downloading file: %s", err.Error())
 				}
