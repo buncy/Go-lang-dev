@@ -12,6 +12,7 @@ import (
 
 	handler "golangdev/zoomAPI/handlers"
 
+	"github.com/davecgh/go-spew/spew"
 	"golang.org/x/oauth2"
 )
 
@@ -20,19 +21,19 @@ type User struct {
 }
 
 type Recordings struct {
-	meetings []Meeting
+	Meetings []Meeting `json:"meetings"`
 }
 
 type Meeting struct {
-	UUID            string `json:"uuid"`
-	topic           string
-	recording_files []Recording
+	UUID           string      `json:"uuid"`
+	Topic          string      `json:"topic"`
+	RecordingFiles []Recording `json:"recording_files"`
 }
 
 type Recording struct {
-	file_type    string
-	file_size    int
-	download_url string
+	FileType    string `json:"file_type"`
+	FileSize    int    `json:"file_size"`
+	DownloadUrl string `json:"download_url"`
 }
 
 var (
@@ -44,9 +45,9 @@ var (
 	}
 	oauthConfig = &oauth2.Config{
 		//RedirectURL: "https://abd7feb4151d.ngrok.io/callback",
-		RedirectURL:  "https://d156272b00bd.ngrok.io/callback",
-		ClientID:     "2jIPrcuUS3iKLtzm3TQRpA",
-		ClientSecret: "5LSKtiJrvFW90paOAX6QAdlg60VkPuM3",
+		RedirectURL:  "https://f2cc59d0864e.ngrok.io/callback",
+		ClientID:     "RagRtzP8TLyIbjzYVGIsFQ",
+		ClientSecret: "F65tiTOVh1HWT38Tc8dZZunvKa2PGsK2",
 		Scopes:       []string{"https://www.googleapis.com/auth/userinfo.email"},
 		Endpoint:     endPoint,
 	}
@@ -89,8 +90,8 @@ func handleCallback(w http.ResponseWriter, r *http.Request) {
 		return
 	}
 	//spew.Dump(token)
-	userEmail := "gabdo@intecorp.net" //TODO: change this user email with the one which has the recordings
-	getUserURL := "https://api.zoom.us/v2/users/" + userEmail
+	// userEmail := "gabdo@intecorp.net" //TODO: change this user email with the one which has the recordings
+	getUserURL := "https://api.zoom.us/v2/users/me"
 
 	//get the user info
 
@@ -115,10 +116,11 @@ func handleCallback(w http.ResponseWriter, r *http.Request) {
 		http.Redirect(w, r, "/", http.StatusTemporaryRedirect)
 		return
 	}
+
 	var user1 User
 	//parse user info
 	json.Unmarshal(content, &user1)
-
+	spew.Dump(user1)
 	userRecordings := getRecordings(token.AccessToken, user1.ID)
 
 	fmt.Fprintf(w, " this is the userID %s \n these are the user recordings %s", user1.ID, string(userRecordings))
@@ -126,7 +128,7 @@ func handleCallback(w http.ResponseWriter, r *http.Request) {
 }
 
 func getRecordings(acess_token string, userID string) string {
-	url := "https://api.zoom.us/v2/users/" + userID + "/recordings?trash_type=meeting_recordings&mc=false&page_size=30"
+	url := "https://api.zoom.us/v2/users/" + userID + "/recordings?mc=false&page_size=30&from=2021-05-01"
 	req, err := http.NewRequest("GET", url, nil)
 
 	if err != nil {
@@ -137,24 +139,28 @@ func getRecordings(acess_token string, userID string) string {
 	res, _ := client.Do(req)
 	defer res.Body.Close()
 	content, _ := ioutil.ReadAll(res.Body)
-	json.Unmarshal(content, &user_recordings)
-	fmt.Printf("recordings response %s", string(content))
+	err = json.Unmarshal(content, &user_recordings)
+	fmt.Print("recordings response ")
 
-	for _, v := range user_recordings.meetings {
-		file_name := v.topic
+	for _, v := range user_recordings.Meetings {
+		file_name := v.Topic
 		meetingID := v.UUID
-		for _, rec := range v.recording_files {
-			file_type := rec.file_type
+		for _, rec := range v.RecordingFiles {
+			file_type := rec.FileType
 			file_name_with_ext := file_name + "." + strings.ToLower(file_type)
 			file_path, err := filepath.Abs(filepath.Join("./Downloads/", file_name_with_ext))
 			if err != nil {
 				fmt.Errorf("error creating download file path: %s", err.Error())
 			}
-			error := handler.DownloadFile(file_path, rec.download_url, acess_token, meetingID)
+			go func(recording Recording) {
+				fmt.Println("Starting download......", file_path)
+				err := handler.DownloadFile(file_path, recording.DownloadUrl, acess_token, meetingID)
+				if err != nil {
+					fmt.Errorf("error downloading file: %s", err.Error())
+				}
+				fmt.Println("DOWNLOADING COMPLETED.........", file_path)
+			}(rec)
 
-			if error != nil {
-				fmt.Errorf("error downloading file: %s", err.Error())
-			}
 		}
 	}
 
