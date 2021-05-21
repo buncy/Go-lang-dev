@@ -7,8 +7,10 @@ import (
 	"io/ioutil"
 	"net/http"
 	"path/filepath"
+	"strconv"
 	"strings"
 	"sync"
+	"time"
 
 	handler "golangdev/zoomAPI/handlers"
 	zoomJWT "golangdev/zoomAPI/jwt"
@@ -18,7 +20,8 @@ import (
 )
 
 type User struct {
-	ID string `json:"id"`
+	ID        string `json:"id"`
+	CreatedAt string `json:"created_at"`
 }
 
 type Recordings struct {
@@ -123,54 +126,76 @@ func handleCallback(w http.ResponseWriter, r *http.Request) {
 	json.Unmarshal(content, &user1)
 	spew.Dump(user1)
 
-	userRecordings := getRecordings(token.AccessToken, user1.ID)
+	getRecordings(token.AccessToken, user1.ID, user1.CreatedAt)
 
-	fmt.Fprintf(w, " this is the userID %s \n these are the user recordings %s", user1.ID, string(userRecordings))
+	fmt.Fprintf(w, " this is the userID %s ", user1.ID)
 
 }
 
-func getRecordings(acess_token string, userID string) string {
-	url := "https://api.zoom.us/v2/users/" + userID + "/recordings?mc=false&page_size=30&from=2021-05-01"
-	req, err := http.NewRequest("GET", url, nil)
+func getRecordings(acess_token string, userID string, userCreatedAt string) {
 
-	if err != nil {
-		fmt.Errorf("get user recordings failed: %s", err.Error())
-	}
-	authValue := "Bearer " + acess_token
-	req.Header.Add("Authorization", authValue)
-	res, _ := client.Do(req)
-	defer res.Body.Close()
-	content, _ := ioutil.ReadAll(res.Body)
-	json.Unmarshal(content, &user_recordings)
-	fmt.Printf("recordings response %s", string(content))
+	const layoutISO = "2006-01-02" //example date
 
-	//get the JWT token
-	jwtToken, err := zoomJWT.CreateJWT()
-	if err != nil {
-		fmt.Errorf("getting JWT failed: %s", err.Error())
-	}
-	for _, v := range user_recordings.Meetings {
-		file_name := v.Topic
-		meetingID := v.UUID
-		for _, rec := range v.RecordingFiles {
-			file_type := rec.FileType
-			file_name_with_ext := file_name + "." + strings.ToLower(file_type)
-			file_path, err := filepath.Abs(filepath.Join("./Downloads/", file_name_with_ext))
-			if err != nil {
-				fmt.Errorf("error creating download file path: %s", err.Error())
-			}
-			go func(recording Recording) {
-				fmt.Println("Starting download......", file_path)
-				err := handler.DownloadFile(file_path, recording.DownloadUrl, jwtToken, meetingID)
-				if err != nil {
-					fmt.Errorf("error downloading file: %s", err.Error())
-				}
-				fmt.Println("DOWNLOADING COMPLETED.........", file_path)
-			}(rec)
+	splitUserCreated := strings.Split(userCreatedAt, "T") //format 2018-11-15T01:10:08Z
+	dateString := splitUserCreated[0]
+	yearMonthDays := strings.Split(dateString, "-")
+	startYear, _ := strconv.Atoi(yearMonthDays[0])
+	startMonth, _ := strconv.Atoi(yearMonthDays[1])
+	startDay, _ := strconv.Atoi(yearMonthDays[2])
+	dateTimeFormat := time.Date(startYear, time.Month(startMonth), startDay, 0, 0, 0, 0, time.UTC) //2018-11-15 00:00:00 +0000 UTC //example date time
 
+	startDate := dateTimeFormat.Format(layoutISO)
+
+	for dateTimeFormat.Before(time.Now()) {
+
+		url := "https://api.zoom.us/v2/users/" + userID + "/recordings?mc=false&page_size=30&from=" + startDate
+		req, err := http.NewRequest("GET", url, nil)
+
+		if err != nil {
+			fmt.Errorf("get user recordings failed: %s", err.Error())
 		}
-	}
+		authValue := "Bearer " + acess_token
+		req.Header.Add("Authorization", authValue)
+		res, _ := client.Do(req)
+		defer res.Body.Close()
+		content, _ := ioutil.ReadAll(res.Body)
+		json.Unmarshal(content, &user_recordings)
+		fmt.Printf("recordings response %s", string(content))
 
-	return string(content)
+		//get the JWT token
+		jwtToken, err := zoomJWT.CreateJWT()
+		if err != nil {
+			fmt.Errorf("getting JWT failed: %s", err.Error())
+		}
+		if len(user_recordings.Meetings) > 0 {
+			for _, v := range user_recordings.Meetings {
+				file_name := v.Topic
+				meetingID := v.UUID
+				for _, rec := range v.RecordingFiles {
+					file_type := rec.FileType
+					file_name_with_ext := file_name + "." + strings.ToLower(file_type)
+					file_path, err := filepath.Abs(filepath.Join("./Downloads/", file_name_with_ext))
+					if err != nil {
+						fmt.Errorf("error creating download file path: %s", err.Error())
+					}
+					go func(recording Recording) {
+						fmt.Println("Starting download......", file_path)
+						err := handler.DownloadFile(file_path, recording.DownloadUrl, jwtToken, meetingID)
+						if err != nil {
+							fmt.Errorf("error downloading file: %s", err.Error())
+						}
+						fmt.Println("DOWNLOADING COMPLETED.........", file_path)
+					}(rec)
+
+				}
+			}
+		}
+
+		//add a month to the current date
+		dateTimeFormat.AddDate(0, 1, 0) //oneMonthLater
+
+		// return string(content)
+
+	}
 
 }
