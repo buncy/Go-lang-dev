@@ -7,7 +7,6 @@ import (
 	"io/ioutil"
 	"net/http"
 	"path/filepath"
-	"strconv"
 	"strings"
 	"sync"
 	"time"
@@ -136,19 +135,14 @@ func getRecordings(acess_token string, userID string, userCreatedAt string) {
 
 	const layoutISO = "2006-01-02" //example date
 
-	splitUserCreated := strings.Split(userCreatedAt, "T") //format 2018-11-15T01:10:08Z
-	dateString := splitUserCreated[0]
-	yearMonthDays := strings.Split(dateString, "-")
-	startYear, _ := strconv.Atoi(yearMonthDays[0])
-	startMonth, _ := strconv.Atoi(yearMonthDays[1])
-	startDay, _ := strconv.Atoi(yearMonthDays[2])
-	dateTimeFormat := time.Date(startYear, time.Month(startMonth), startDay, 0, 0, 0, 0, time.UTC) //2018-11-15 00:00:00 +0000 UTC //example date time
-
+	dateTimeFormat, _ := GetTimeObjFromString(userCreatedAt)
 	startDate := dateTimeFormat.Format(layoutISO)
+	endDateTime := dateTimeFormat.AddDate(0, 1, -1)
+	endDate := endDateTime.Format(layoutISO)
 
 	for dateTimeFormat.Before(time.Now()) {
 
-		url := "https://api.zoom.us/v2/users/" + userID + "/recordings?mc=false&page_size=30&from=" + startDate
+		url := "https://api.zoom.us/v2/users/" + userID + "/recordings?mc=false&page_size=30&from=" + startDate + "&to=" + endDate
 		req, err := http.NewRequest("GET", url, nil)
 
 		if err != nil {
@@ -192,10 +186,22 @@ func getRecordings(acess_token string, userID string, userCreatedAt string) {
 		}
 
 		//add a month to the current date
-		dateTimeFormat.AddDate(0, 1, 0) //oneMonthLater
-
+		nextDate := dateTimeFormat.AddDate(0, 1, 0) //oneMonthLater
+		dateTimeFormat = &nextDate
+		startDate = dateTimeFormat.Format(layoutISO)
+		endDateTime = dateTimeFormat.AddDate(0, 1, -1)
+		endDate = endDateTime.Format(layoutISO)
 		// return string(content)
 
 	}
 
+}
+
+func GetTimeObjFromString(timeString string) (*time.Time, error) {
+	t, err := time.Parse("2006-01-02T15:04:05Z", timeString)
+
+	if err != nil {
+		return nil, err
+	}
+	return &t, nil
 }

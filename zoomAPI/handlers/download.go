@@ -3,6 +3,7 @@ package handler
 import (
 	"fmt"
 	"io"
+	"log"
 	"net/http"
 	"os"
 )
@@ -28,6 +29,14 @@ func DownloadFile(filepath string, url string, access_token string, meeting_id s
 	}
 	defer resp.Body.Close()
 
+	// check if file exists
+	var _, statErr = os.Stat(filepath)
+
+	// create file if not exists
+	if os.IsNotExist(statErr) {
+		CreateDir(filepath)
+	}
+
 	// Create the file
 	out, err := os.Create(filepath)
 	if err != nil {
@@ -38,4 +47,14 @@ func DownloadFile(filepath string, url string, access_token string, meeting_id s
 	// Write the body to file
 	_, err = io.Copy(out, resp.Body)
 	return err
+}
+func CreateDir(dir string) error {
+	if _, err := os.Stat(dir); os.IsNotExist(err) {
+		err := os.MkdirAll(dir, os.ModePerm)
+		if err != nil {
+			log.Println(" -- error creating " + dir)
+			return err
+		}
+	}
+	return nil
 }
