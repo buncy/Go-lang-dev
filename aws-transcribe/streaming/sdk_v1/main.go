@@ -1,9 +1,11 @@
 package main
 
 import (
+	"bytes"
 	"context"
-	"io"
+	"fmt"
 	"log"
+	"os"
 
 	// "fmt"
 	"net/http"
@@ -20,13 +22,16 @@ var (
 
 func main() {
 
-	http.HandleFunc("/hello", hello)
+	http.HandleFunc("/", hello)
 	http.ListenAndServe(":8090", nil)
 
 }
 
 func hello(w http.ResponseWriter, req *http.Request) {
-	sess, err := session.NewSession()
+	sess, err := session.NewSession(
+		&aws.Config{
+			Region: aws.String("us-east-1")},
+	)
 
 	if err != nil {
 		log.Fatalf("failed to load SDK configuration, %v", err)
@@ -45,14 +50,41 @@ func hello(w http.ResponseWriter, req *http.Request) {
 	stream := resp.GetStream()
 	defer stream.Close()
 
-	var audio io.Reader
+	//var audio io.Reader
 	// TODO Set audio to an io.Reader to stream audio bytes from.
 	//audio.Read([]byte(""))
-	go transcribestreamingservice.StreamAudioFromReader(context.Background(), stream.Writer, 10*1024, audio)
+	var reader *bytes.Reader
+	// var file io.Reader
+	// var err error
+	localPath := "./test.mp3"
+	file, err := os.Open(localPath)
+	if err == nil {
+		defer file.Close()
+		//defer os.Remove(localPath)
+		file.Seek(0, 0)
+		buffer := make([]byte, 10*1024)
+
+		_, err := file.Read(buffer)
+		if err != nil {
+			fmt.Println(err.Error())
+		}
+		if err == nil {
+			fmt.Println(buffer, "buffer")
+		}
+
+		reader = bytes.NewReader(buffer)
+		if reader != nil {
+			fmt.Println("Success")
+		}
+	}
+	if err != nil {
+		fmt.Println(err.Error(), "error")
+	}
+	go transcribestreamingservice.StreamAudioFromReader(context.Background(), stream.Writer, 10*1024, reader)
 
 	for event := range stream.Events() {
 		switch e := event.(type) {
-		case *TranscriptEvent:
+		case *transcribestreamingservice.TranscriptEvent:
 			log.Printf("got event, %v results", len(e.Transcript.Results))
 			for _, res := range e.Transcript.Results {
 				for _, alt := range res.Alternatives {
