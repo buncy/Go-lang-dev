@@ -5,6 +5,7 @@ go 1.16
 require (
 	github.com/IBM/go-sdk-core/v4 v4.9.0
 	github.com/armon/go-radix v1.0.0
+	github.com/aws/aws-sdk-go v1.38.45
 	github.com/aws/aws-sdk-go-v2 v1.4.0
 	github.com/aws/aws-sdk-go-v2/config v1.1.7
 	github.com/aws/aws-sdk-go-v2/feature/s3/manager v1.1.4
@@ -23,9 +24,11 @@ require (
 	github.com/lestrrat-go/jwx v1.2.0 // indirect
 	github.com/lestrrat-go/pdebug v0.0.0-20200204225717-4d6bd78da58d // indirect
 	github.com/nlpodyssey/spago v0.6.0 // indirect
+	github.com/relvacode/iso8601 v1.1.0 // indirect
 	github.com/spaolacci/murmur3 v1.1.0
 	github.com/stretchr/testify v1.7.0 // indirect
 	github.com/watson-developer-cloud/go-sdk/v2 v2.0.3
+	golang.org/x/crypto v0.0.0-20210513164829-c07d793c2f9a // indirect
 	golang.org/x/exp v0.0.0-20210514180818-737f94c0881e
 	golang.org/x/net v0.0.0-20210510120150-4163338589ed // indirect
 	golang.org/x/oauth2 v0.0.0-20210427180440-81ed05c6b58c
