@@ -1,0 +1,1289 @@
+{
+   "language": "en",
+   "usage": {
+      "features": 5,
+      "text_characters": 6219,
+      "text_units": 1
+   },
+   "entities": [
+      {
+         "type": "Person",
+         "text": "charlie slash",
+         "relevance": 0.95056,
+         "confidence": 0.697807,
+         "mentions": [
+            {
+               "text": "charlie slash",
+               "location": [
+                  225,
+                  238
+               ],
+               "confidence": 0.697807
+            }
+         ],
+         "count": 1
+      },
+      {
+         "type": "Person",
+         "text": "Romeo slash",
+         "relevance": 0.945281,
+         "confidence": 0.256949,
+         "mentions": [
+            {
+               "text": "Romeo slash",
+               "location": [
+                  272,
+                  283
+               ],
+               "confidence": 0.256949
+            }
+         ],
+         "count": 1
+      },
+      {
+         "type": "Person",
+         "text": "john smith",
+         "relevance": 0.90157,
+         "confidence": 1,
+         "mentions": [
+            {
+               "text": "john smith",
+               "location": [
+                  2185,
+                  2195
+               ],
+               "confidence": 0.99561
+            },
+            {
+               "text": "john smith",
+               "location": [
+                  2640,
+                  2650
+               ],
+               "confidence": 0.995695
+            },
+            {
+               "text": "john smith",
+               "location": [
+                  3294,
+                  3304
+               ],
+               "confidence": 0.98319
+            }
+         ],
+         "count": 3
+      }
+   ],
+   "keywords": [
+      {
+         "count": 1,
+         "relevance": 0.689842,
+         "text": "Inspector of the next line"
+      },
+      {
+         "count": 1,
+         "relevance": 0.607322,
+         "text": "next line tom smith"
+      },
+      {
+         "count": 1,
+         "relevance": 0.5983,
+         "text": "main points"
+      }
+   ],
+   "categories": [
+      {
+         "label": "/law, govt and politics",
+         "score": 0.820378,
+         "explanation": {
+            "relevant_text": [
+               {
+                  "text": "stated"
+               },
+               {
+                  "text": "said"
+               },
+               {
+                  "text": "duties"
+               },
+               {
+                  "text": "also"
+               },
+               {
+                  "text": "would"
+               },
+               {
+                  "text": "investigation"
+               },
+               {
+                  "text": "reported"
+               },
+               {
+                  "text": "policy"
+               }
+            ]
+         }
+      },
+      {
+         "label": "/business and industrial/business operations/business plans",
+         "score": 0.697582,
+         "explanation": {
+            "relevant_text": [
+               {
+                  "text": "would"
+               },
+               {
+                  "text": "construction"
+               },
+               {
+                  "text": "company"
+               },
+               {
+                  "text": "well"
+               },
+               {
+                  "text": "still"
+               },
+               {
+                  "text": "also"
+               },
+               {
+                  "text": "however"
+               },
+               {
+                  "text": "new"
+               }
+            ]
+         }
+      },
+      {
+         "label": "/society/crime/personal offense",
+         "score": 0.681956,
+         "explanation": {
+            "relevant_text": [
+               {
+                  "text": "forced"
+               },
+               {
+                  "text": "investigation"
+               },
+               {
+                  "text": "reported"
+               },
+               {
+                  "text": "stated"
+               },
+               {
+                  "text": "said"
+               },
+               {
+                  "text": "also"
+               },
+               {
+                  "text": "taken"
+               },
+               {
+                  "text": "however"
+               }
+            ]
+         }
+      }
+   ],
+   "relations": [
+      {
+         "score": 0.611474,
+         "sentence": "We are pleased to confirm that we have interviewed your client and as such, we are pleased to supply our findings to you in the following manner paragraph please type clients underlined and bold as the head in New paragraph.",
+         "type": "agentOf",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "we",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  646,
+                  648
+               ],
+               "text": "We"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "confirm",
+                     "type": "EventCommunication"
+                  }
+               ],
+               "location": [
+                  664,
+                  671
+               ],
+               "text": "confirm"
+            }
+         ]
+      },
+      {
+         "score": 0.52873,
+         "sentence": "And so he was told to pull the feet off barriers, barriers are used by construction companies and they needed to be re sprayed yellow full stop.",
+         "type": "partOfMany",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "head",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  2009,
+                  2011
+               ],
+               "text": "he"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "their",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  2100,
+                  2104
+               ],
+               "text": "they"
+            }
+         ]
+      },
+      {
+         "score": 0.773234,
+         "sentence": "He was told by a supervisor come with john smith come out to pull the barriers off their supporting feet instead of using a sledgehammer come out as it was suggested that a sledgehammer would bring the fees for stop.",
+         "type": "partOfMany",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "head",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  2147,
+                  2149
+               ],
+               "text": "He"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "their",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  2230,
+                  2235
+               ],
+               "text": "their"
+            }
+         ]
+      },
+      {
+         "score": 0.519793,
+         "sentence": "He was told by a supervisor come with john smith come out to pull the barriers off their supporting feet instead of using a sledgehammer come out as it was suggested that a sledgehammer would bring the fees for stop.",
+         "type": "affectedBy",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "supervisor",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  2164,
+                  2174
+               ],
+               "text": "supervisor"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "told",
+                     "type": "EventCommunication"
+                  }
+               ],
+               "location": [
+                  2154,
+                  2158
+               ],
+               "text": "told"
+            }
+         ]
+      },
+      {
+         "score": 0.668789,
+         "sentence": "He was told by a supervisor come with john smith come out to pull the barriers off their supporting feet instead of using a sledgehammer come out as it was suggested that a sledgehammer would bring the fees for stop.",
+         "type": "partOfMany",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "supervisor",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  2164,
+                  2174
+               ],
+               "text": "supervisor"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "their",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  2230,
+                  2235
+               ],
+               "text": "their"
+            }
+         ]
+      },
+      {
+         "score": 0.238866,
+         "sentence": "His third barrier was pulling it out of its feet when he told the shoulder muscles in his left shoulder full stop, no bullet point, he spoke to john smith about his injury, who said he was just trying to get out of the job full stuff.",
+         "type": "locatedAt",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "head",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  2496,
+                  2499
+               ],
+               "text": "His"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "barrier",
+                     "type": "Facility"
+                  }
+               ],
+               "location": [
+                  2506,
+                  2513
+               ],
+               "text": "barrier"
+            }
+         ]
+      },
+      {
+         "score": 0.996752,
+         "sentence": "His third barrier was pulling it out of its feet when he told the shoulder muscles in his left shoulder full stop, no bullet point, he spoke to john smith about his injury, who said he was just trying to get out of the job full stuff.",
+         "type": "agentOf",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "head",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  2628,
+                  2630
+               ],
+               "text": "he"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "suggested",
+                     "type": "EventCommunication"
+                  }
+               ],
+               "location": [
+                  2631,
+                  2636
+               ],
+               "text": "spoke"
+            }
+         ]
+      },
+      {
+         "score": 0.99532,
+         "sentence": "His third barrier was pulling it out of its feet when he told the shoulder muscles in his left shoulder full stop, no bullet point, he spoke to john smith about his injury, who said he was just trying to get out of the job full stuff.",
+         "type": "agentOf",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "head",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  2669,
+                  2672
+               ],
+               "text": "who"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "said",
+                     "type": "EventCommunication"
+                  }
+               ],
+               "location": [
+                  2673,
+                  2677
+               ],
+               "text": "said"
+            }
+         ]
+      },
+      {
+         "score": 0.567335,
+         "sentence": "However, when your client stated that he needed to go to hospital, come out, john Clyde, get yourself away, then get yourself away then in inverted thomas please.",
+         "type": "clientOf",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "client",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  2750,
+                  2756
+               ],
+               "text": "client"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "Clyde",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  2745,
+                  2749
+               ],
+               "text": "your"
+            }
+         ]
+      },
+      {
+         "score": 0.8995,
+         "sentence": "However, when your client stated that he needed to go to hospital, come out, john Clyde, get yourself away, then get yourself away then in inverted thomas please.",
+         "type": "agentOf",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "client",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  2750,
+                  2756
+               ],
+               "text": "client"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "stated",
+                     "type": "EventCommunication"
+                  }
+               ],
+               "location": [
+                  2757,
+                  2763
+               ],
+               "text": "stated"
+            }
+         ]
+      },
+      {
+         "score": 0.788599,
+         "sentence": "However, when your client stated that he needed to go to hospital, come out, john Clyde, get yourself away, then get yourself away then in inverted thomas please.",
+         "type": "locatedAt",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "head",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  2769,
+                  2771
+               ],
+               "text": "he"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "hospital",
+                     "type": "Organization"
+                  }
+               ],
+               "location": [
+                  2788,
+                  2796
+               ],
+               "text": "hospital"
+            }
+         ]
+      },
+      {
+         "score": 0.566682,
+         "sentence": "He arrived at hospital at 12:30 PM and was seen by a doctor.",
+         "type": "locatedAt",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "head",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  3677,
+                  3679
+               ],
+               "text": "He"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "hospital",
+                     "type": "Organization"
+                  }
+               ],
+               "location": [
+                  3691,
+                  3699
+               ],
+               "text": "hospital"
+            }
+         ]
+      },
+      {
+         "score": 0.447459,
+         "sentence": "Mhm New Point, he is not aware if the incident was reported in the accident report work only is not aware of any health and safety executive investigation, full stop.",
+         "type": "affectedBy",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "head",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  2909,
+                  2911
+               ],
+               "text": "he"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "investigation",
+                     "type": "EventLegal"
+                  }
+               ],
+               "location": [
+                  3035,
+                  3048
+               ],
+               "text": "investigation"
+            }
+         ]
+      },
+      {
+         "score": 0.449156,
+         "sentence": "We are pleased to confirm that we have interviewed your client and as such, we are pleased to supply our findings to you in the following manner paragraph please type clients underlined and bold as the head in New paragraph.",
+         "type": "clientOf",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "client",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  702,
+                  708
+               ],
+               "text": "client"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "your",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  697,
+                  701
+               ],
+               "text": "your"
+            }
+         ]
+      },
+      {
+         "score": 0.991965,
+         "sentence": "He also reiterated that the feet would normally be taken off with the machine, but in inverted commas, john smith wanted me to pull them off because it was much cheaper clothes, inverted commas, new bullet points.",
+         "type": "agentOf",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "head",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  3191,
+                  3193
+               ],
+               "text": "He"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "reiterated",
+                     "type": "EventCommunication"
+                  }
+               ],
+               "location": [
+                  3199,
+                  3209
+               ],
+               "text": "reiterated"
+            }
+         ]
+      },
+      {
+         "score": 0.990779,
+         "sentence": "He describes the difficulties he has in cold weather And in connection with his social life and domestic duties and as a result comer, he has been unemployed for the last 13 months.",
+         "type": "agentOf",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "head",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  4291,
+                  4293
+               ],
+               "text": "He"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "describes",
+                     "type": "EventCommunication"
+                  }
+               ],
+               "location": [
+                  4294,
+                  4303
+               ],
+               "text": "describes"
+            }
+         ]
+      },
+      {
+         "score": 0.987899,
+         "sentence": "He describes being instructed to pull the barriers out of their supporting feet by hand, but suggests that on occasion this would have been performed by a machine, but it was in inverted commas cheaper to use manual labor full stop.",
+         "type": "agentOf",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "head",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  4897,
+                  4899
+               ],
+               "text": "He"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "describes",
+                     "type": "EventCommunication"
+                  }
+               ],
+               "location": [
+                  4900,
+                  4909
+               ],
+               "text": "describes"
+            }
+         ]
+      },
+      {
+         "score": 0.470361,
+         "sentence": "He describes the difficulties he has in cold weather And in connection with his social life and domestic duties and as a result comer, he has been unemployed for the last 13 months.",
+         "type": "affectedBy",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "head",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  4321,
+                  4323
+               ],
+               "text": "he"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "describes",
+                     "type": "EventCommunication"
+                  }
+               ],
+               "location": [
+                  4294,
+                  4303
+               ],
+               "text": "describes"
+            }
+         ]
+      },
+      {
+         "score": 0.530369,
+         "sentence": "He describes being instructed to pull the barriers out of their supporting feet by hand, but suggests that on occasion this would have been performed by a machine, but it was in inverted commas cheaper to use manual labor full stop.",
+         "type": "partOfMany",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "head",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  4897,
+                  4899
+               ],
+               "text": "He"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "their",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  4955,
+                  4960
+               ],
+               "text": "their"
+            }
+         ]
+      },
+      {
+         "score": 0.66869,
+         "sentence": "Furthermore, he had been told not to use a sledgehammer to dislodge the feet as it had the potential of damaging them full stuff.",
+         "type": "partOfMany",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "head",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  5143,
+                  5145
+               ],
+               "text": "he"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "their",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  5243,
+                  5247
+               ],
+               "text": "them"
+            }
+         ]
+      },
+      {
+         "score": 0.696622,
+         "sentence": "Next bullet point Interview with your appliance.",
+         "type": "participantIn",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "your",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  5778,
+                  5782
+               ],
+               "text": "your"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "interview",
+                     "type": "EventMeeting"
+                  }
+               ],
+               "location": [
+                  5763,
+                  5772
+               ],
+               "text": "Interview"
+            }
+         ]
+      },
+      {
+         "score": 0.482522,
+         "sentence": "We are pleased to confirm that we have interviewed your client and as such, we are pleased to supply our findings to you in the following manner paragraph please type clients underlined and bold as the head in New paragraph.",
+         "type": "locatedAt",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "clients",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  813,
+                  820
+               ],
+               "text": "clients"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "New paragraph",
+                     "type": "GeopoliticalEntity"
+                  }
+               ],
+               "location": [
+                  856,
+                  869
+               ],
+               "text": "New paragraph"
+            }
+         ]
+      },
+      {
+         "score": 0.804814,
+         "sentence": "He lives with his wife and four Children and is currently unemployed paragraph and gave his evidence quite well.",
+         "type": "spouseOf",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "Henry Jones",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  917,
+                  920
+               ],
+               "text": "his"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "wife",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  921,
+                  925
+               ],
+               "text": "wife"
+            }
+         ]
+      },
+      {
+         "score": 0.991704,
+         "sentence": "He answered all questions asked of him and we were not given any particular reason to doubt the evidence he offered throughout the interview process.",
+         "type": "agentOf",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "Henry Jones",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  1091,
+                  1093
+               ],
+               "text": "He"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "answered",
+                     "type": "EventCommunication"
+                  }
+               ],
+               "location": [
+                  1094,
+                  1102
+               ],
+               "text": "answered"
+            }
+         ]
+      },
+      {
+         "score": 0.592546,
+         "sentence": "He answered all questions asked of him and we were not given any particular reason to doubt the evidence he offered throughout the interview process.",
+         "type": "partOfMany",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "Henry Jones",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  1126,
+                  1129
+               ],
+               "text": "him"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "We",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  1134,
+                  1136
+               ],
+               "text": "we"
+            }
+         ]
+      },
+      {
+         "score": 0.996046,
+         "sentence": "He answered all questions asked of him and we were not given any particular reason to doubt the evidence he offered throughout the interview process.",
+         "type": "agentOf",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "Henry Jones",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  1196,
+                  1198
+               ],
+               "text": "he"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "offered",
+                     "type": "EventCommunication"
+                  }
+               ],
+               "location": [
+                  1199,
+                  1206
+               ],
+               "text": "offered"
+            }
+         ]
+      },
+      {
+         "score": 0.998485,
+         "sentence": "The company manufactured road signs and he states he did not receive any formal training before commencing his job full stop.",
+         "type": "agentOf",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "head",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  1747,
+                  1749
+               ],
+               "text": "he"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "states",
+                     "type": "EventCommunication"
+                  }
+               ],
+               "location": [
+                  1750,
+                  1756
+               ],
+               "text": "states"
+            }
+         ]
+      },
+      {
+         "score": 0.998064,
+         "sentence": "He states there was no health and safety policy in place at all at all at the time of the incident and he had never signed any health and safety documents will stop.",
+         "type": "agentOf",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "head",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  3405,
+                  3407
+               ],
+               "text": "He"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "states",
+                     "type": "EventCommunication"
+                  }
+               ],
+               "location": [
+                  3408,
+                  3414
+               ],
+               "text": "states"
+            }
+         ]
+      },
+      {
+         "score": 0.84846,
+         "sentence": "And so he was told to pull the feet off barriers, barriers are used by construction companies and they needed to be re sprayed yellow full stop.",
+         "type": "agentOf",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "head",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  2009,
+                  2011
+               ],
+               "text": "he"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "told",
+                     "type": "EventCommunication"
+                  }
+               ],
+               "location": [
+                  2016,
+                  2020
+               ],
+               "text": "told"
+            }
+         ]
+      },
+      {
+         "score": 0.782736,
+         "sentence": "He was told by a supervisor come with john smith come out to pull the barriers off their supporting feet instead of using a sledgehammer come out as it was suggested that a sledgehammer would bring the fees for stop.",
+         "type": "agentOf",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "head",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  2147,
+                  2149
+               ],
+               "text": "He"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "told",
+                     "type": "EventCommunication"
+                  }
+               ],
+               "location": [
+                  2154,
+                  2158
+               ],
+               "text": "told"
+            }
+         ]
+      },
+      {
+         "score": 0.995004,
+         "sentence": "His third barrier was pulling it out of its feet when he told the shoulder muscles in his left shoulder full stop, no bullet point, he spoke to john smith about his injury, who said he was just trying to get out of the job full stuff.",
+         "type": "agentOf",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "head",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  2550,
+                  2552
+               ],
+               "text": "he"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "told",
+                     "type": "EventCommunication"
+                  }
+               ],
+               "location": [
+                  2553,
+                  2557
+               ],
+               "text": "told"
+            }
+         ]
+      },
+      {
+         "score": 0.943777,
+         "sentence": "He was told to get a signal from his GP full stuff.",
+         "type": "agentOf",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "head",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  3915,
+                  3917
+               ],
+               "text": "He"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "told",
+                     "type": "EventCommunication"
+                  }
+               ],
+               "location": [
+                  3922,
+                  3926
+               ],
+               "text": "told"
+            }
+         ]
+      },
+      {
+         "score": 0.887328,
+         "sentence": "Furthermore, he had been told not to use a sledgehammer to dislodge the feet as it had the potential of damaging them full stuff.",
+         "type": "agentOf",
+         "arguments": [
+            {
+               "entities": [
+                  {
+                     "text": "head",
+                     "type": "Person"
+                  }
+               ],
+               "location": [
+                  5143,
+                  5145
+               ],
+               "text": "he"
+            },
+            {
+               "entities": [
+                  {
+                     "text": "told",
+                     "type": "EventCommunication"
+                  }
+               ],
+               "location": [
+                  5155,
+                  5159
+               ],
+               "text": "told"
+            }
+         ]
+      }
+   ],
+   "sentiment": {
+      "document": {
+         "label": "negative",
+         "score": -0.375329
+      }
+   }
+}

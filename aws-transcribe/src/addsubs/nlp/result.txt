@@ -1,0 +1,370 @@
+1) We PRP O
+
+2) are VBP O
+
+3) down RB O
+
+4) to TO O
+
+5) the DT O
+
+6) last JJ O
+
+7) day NN O
+
+8) of IN O
+
+9) our PRP$ O
+
+10) stay NN O
+
+11) at IN O
+
+12) Lake NNP B-PERSON
+
+13) Tekapo NNP O
+
+14) and CC O
+
+15) as IN O
+
+16) we PRP O
+
+17) had VBD O
+
+18) hoped VBN O
+
+19) the DT O
+
+20) dip NN O
+
+21) in IN O
+
+22) the DT O
+
+23) hot JJ O
+
+24) tub NN O
+
+25) on IN O
+
+26) the DT O
+
+27) deck NN O
+
+28) at IN O
+
+29) night NN O
+
+30) has VBZ O
+
+31) made VBN O
+
+32) our PRP$ O
+
+33) stay NN O
+
+34) here RB O
+
+35) very RB O
+
+36) relaxing VBG O
+
+37) . . O
+
+38) We PRP O
+
+39) are VBP O
+
+40) pinching VBG O
+
+41) ourselves NNS O
+
+42) because IN O
+
+43) we PRP O
+
+44) had VBD O
+
+45) found VBN O
+
+46) such PDT O
+
+47) a DT O
+
+48) restful NN O
+
+49) accommodation.There NN O
+
+50) had VBD O
+
+51) been VBN O
+
+52) a DT O
+
+53) bit RB O
+
+54) more RBR O
+
+55) rain NN O
+
+56) overnight JJ O
+
+57) but CC O
+
+58) the DT O
+
+59) prospects NNS O
+
+60) for IN O
+
+61) a DT O
+
+62) reasonable JJ O
+
+63) day NN O
+
+64) without IN O
+
+65) any DT O
+
+66) further JJ O
+
+67) rain NN O
+
+68) was VBD O
+
+69) on IN O
+
+70) the DT O
+
+71) cards NNS O
+
+72) which WDT O
+
+73) will MD O
+
+74) ensure VB O
+
+75) we PRP O
+
+76) get VB O
+
+77) around IN O
+
+78) the DT O
+
+79) three CD O
+
+80) close JJ O
+
+81) locations NNS O
+
+82) to TO O
+
+83) the DT O
+
+84) township NN O
+
+85) that IN O
+
+86) we PRP O
+
+87) want VBP O
+
+88) to TO O
+
+89) explore VB O
+
+90) and CC O
+
+91) get VB O
+
+92) a DT O
+
+93) feeling NN O
+
+94) for IN O
+
+95) the DT O
+
+96) history NN O
+
+97) of IN O
+
+98) this DT O
+
+99) unique JJ O
+
+100) part NN O
+
+101) of IN O
+
+102) New NNP B-GPE
+
+103) Zealand.Heading NN O
+
+104) out RP O
+
+105) for IN O
+
+106) some DT O
+
+107) sightseeing VBG O
+
+108) our PRP$ O
+
+109) first JJ O
+
+110) location NN O
+
+111) to TO O
+
+112) visit NN O
+
+113) were VBD O
+
+114) the DT O
+
+115) twin JJ O
+
+116) lakes NNS O
+
+117) of IN O
+
+118) Lake NNP B-PERSON
+
+119) McGregor NNP I-ORGANIZATION
+
+120) and CC O
+
+121) Lake NNP B-PERSON
+
+122) Alexandrina NNP B-GPE
+
+123) to TO O
+
+124) the DT O
+
+125) northwest NN O
+
+126) of IN O
+
+127) Tekapo NNP O
+
+128) township.From NN O
+
+129) Tekapo NNP O
+
+130) you PRP O
+
+131) ca MD O
+
+132) n't RB O
+
+133) see VB O
+
+134) these DT O
+
+135) lakes NNS O
+
+136) as IN O
+
+137) they PRP O
+
+138) are VBP O
+
+139) hidden VBN O
+
+140) behind IN O
+
+141) the DT O
+
+142) imposing NN O
+
+143) hill NN O
+
+144) that IN O
+
+145) the DT O
+
+146) Mt NNP O
+
+147) John NNP B-PERSON
+
+148) Observatory NNP O
+
+149) sits VBZ O
+
+150) on IN O
+
+151) . . O
+
+152) We PRP O
+
+153) had VBD O
+
+154) n't RB O
+
+155) included VBN O
+
+156) a DT O
+
+157) visit NN O
+
+158) to TO O
+
+159) the DT O
+
+160) observatory NN O
+
+161) as IN O
+
+162) the DT O
+
+163) nights NNS O
+
+164) had VBD O
+
+165) not RB O
+
+166) been VBN O
+
+167) clear JJ O
+
+168) enough RB O
+
+169) to TO O
+
+170) take VB O
+
+171) in IN O
+
+172) what WP O
+
+173) is VBZ O
+
+174) reputed VBN O
+
+175) to TO O
+
+176) be VB O
+
+177) the DT O
+
+178) best JJS O
+
+179) night NN O
+
+180) sky NN O
+
+181) area NN O
+
+182) in IN O
+
+183) New NNP B-GPE
+
+184) Zealand NNP B-GPE
+
+185) . . O
+

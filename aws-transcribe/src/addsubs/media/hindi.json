@@ -1,0 +1,5548 @@
+{
+    "jobName": "autodetect",
+    "accountId": "864303344205",
+    "results": {
+        "language_code": "hi-IN",
+        "transcripts": [
+            {
+                "transcript": "भारत के पडोसी देश पाकिस्तान में भी हालत बहुत अच्छी नहीं । अब करो ना के और फैलने की आशंका के मद्देनजर पाकिस्तान देश के ही अंदर ट्रैवल बैन लगाने की तैयारी कर रहे हैं क्योंकि आम तौर पर लोग ईद के आसपास यात्रा करने की भी योजना बनाते हैं । हालांकि वहाँ भी करो ना के मामले रोजाना की बुनियाद पर बढ रहे हैं । लेकिन अभी तक प्रधानमंत्री इमरान खान की सरकार ने ज्यादा सख्त प्रतिबंध नहीं लगाए हैं और विशेषज्ञों को डर है कि पहले से ही संघर्ष कर रहे पाकिस्तान के हेल्थ के सिस्टम पर दबाव और बढने वाला है । देखिए बीबीसी संवाददाता उम्रदराज लंघेयाना की ये रिपोर्ट व्यस्त भीड से भरे बाजार करो ना के खतरे के बावजूद दिन में आठ घंटे और सप्ताह में पांच दिन खोलती दुकानें और मार के सोशल डिस्पेंसिंग का तो सवाल ही नहीं उठता । नतीजा मरीजों से भरे हुए अस्पताल जैसे उत्तर पूर्वी पाकिस्तान के गुजरांवाला का ये अस्पताल ऍम अस्पताल प्रमुख ने हमें इसका आईसीओ दिखाया । यहाँ वेंटिलेटर्स की सख्त कमी है और ऑक्सीजन भी तेजी से खत्म हो रही है । फॅर बडे अफसोसजनक हालत है । हमारे यहाँ पांच सौ दस मरीज भर्ती थे जिनमें से एक सौ तिरासी की मौत हो चुकी है क्योंकि मरीजों को यहाँ बेहद गंभीर हालत में भर्ती कराया जा रहा है । पिछले और ऍम छोटे शहरों और गांवों के अस्पतालों में जब जगह नहीं मिल रही है तो लोग बडे शहरों का रुख कर रहे हैं लेकिन लाहौर के अस्पताल भी पूरी तरह से भरे हैं । हालात इतने बुरे हैं की मदद के लिए आर्मी बुलाने पड रही है । ऍम सरकार के लगाए करो ना प्रतिबंधों को लागू करवाने के लिए ये सैनिक सडकों पर है । आईडिया ये है कि बंदूक लिए हुए वर्दीधारी सैनिकों को देखकर लोग करेंगे और माँ और सोशल डिस्टेंस सिंह का पालन करेंगे लेकिन लाहौर जैसे बडे शहर में ये सब अमल में लाना सेना के लिए भी बडा मुश्किल का ऍम सेना के जवान सोलह शहरों में गश्त लगाकर पुलिस की मदद कर रहे हैं । कोरोना से निपटने के लिए ज्यादा से ज्यादा लोगों को गायक सील देनी होगी लेकिन वहाँ टीकाकरण धीमी रफ्तार से चल रहा है । सिर्फ बीस लाख लोगों को ही वैसी लग पाई है । अब भी करीब बाईस करोड लोगों को वैक्सी लगनी बाकी है । सरकार लौटा उनकी मांग को अब तक नकारते आई है आई एग्री वृद्धि ऍम डॉक्टरों की राय से सहमत हूँ । लेकिन लॉकडाउन लगाने से पहले आपको पूरे हालात समझने होंगे । पाकिस्तान जैसे विकासशील देश में इतनी ज्यादा आर्थिक समस्याएं हैं । देश की चालीस से पचास फीसदी आबादी दैनिक कामगारों की है तो लाॅन का उन पर बहुत बुरा असर हाॅल । रात में पढ रहे ये छापे लोगों तक यह संदेश पहुंचाने के लिए है कि नियम तोडने वालों को बख्शा नहीं जाएगा । पडोसी देश भारत के बुरे हालत देखकर लोग चिंता में है कि पाकिस्तान में ऐसा हुआ तो न जाने क्या होगा ।"
+            }
+        ],
+        "language_identification": [
+            {
+                "score": "0.9999",
+                "code": "hi-IN"
+            },
+            {
+                "score": "0.0001",
+                "code": "ms-MY"
+            },
+            {
+                "score": "0.0001",
+                "code": "ta-IN"
+            },
+            {
+                "score": "0.0001",
+                "code": "te-IN"
+            },
+            {
+                "score": "0.0001",
+                "code": "de-DE"
+            }
+        ],
+        "items": [
+            {
+                "start_time": "0.56",
+                "end_time": "0.84",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "भारत"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "0.84",
+                "end_time": "0.94",
+                "alternatives": [
+                    {
+                        "confidence": "0.9964",
+                        "content": "के"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "0.95",
+                "end_time": "1.38",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "पडोसी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "1.38",
+                "end_time": "1.59",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "देश"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "1.59",
+                "end_time": "2.1",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "पाकिस्तान"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "2.1",
+                "end_time": "2.21",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "में"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "2.21",
+                "end_time": "2.3",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "भी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "2.3",
+                "end_time": "2.67",
+                "alternatives": [
+                    {
+                        "confidence": "0.8565",
+                        "content": "हालत"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "2.67",
+                "end_time": "2.92",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "बहुत"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "2.92",
+                "end_time": "3.15",
+                "alternatives": [
+                    {
+                        "confidence": "0.787",
+                        "content": "अच्छी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "3.15",
+                "end_time": "3.46",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "नहीं"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "।"
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "3.64",
+                "end_time": "3.86",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "अब"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "3.86",
+                "end_time": "4.09",
+                "alternatives": [
+                    {
+                        "confidence": "0.5799",
+                        "content": "करो"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "4.09",
+                "end_time": "4.22",
+                "alternatives": [
+                    {
+                        "confidence": "0.5948",
+                        "content": "ना"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "4.22",
+                "end_time": "4.35",
+                "alternatives": [
+                    {
+                        "confidence": "0.9883",
+                        "content": "के"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "4.35",
+                "end_time": "4.66",
+                "alternatives": [
+                    {
+                        "confidence": "0.9989",
+                        "content": "और"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "4.66",
+                "end_time": "5.01",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "फैलने"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "5.01",
+                "end_time": "5.15",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "की"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "5.15",
+                "end_time": "5.53",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "आशंका"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "5.53",
+                "end_time": "5.64",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "के"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "5.64",
+                "end_time": "6.12",
+                "alternatives": [
+                    {
+                        "confidence": "0.9959",
+                        "content": "मद्देनजर"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "6.12",
+                "end_time": "6.7",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "पाकिस्तान"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "6.98",
+                "end_time": "7.24",
+                "alternatives": [
+                    {
+                        "confidence": "0.9924",
+                        "content": "देश"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "7.24",
+                "end_time": "7.33",
+                "alternatives": [
+                    {
+                        "confidence": "0.9811",
+                        "content": "के"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "7.33",
+                "end_time": "7.48",
+                "alternatives": [
+                    {
+                        "confidence": "0.9787",
+                        "content": "ही"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "7.48",
+                "end_time": "7.76",
+                "alternatives": [
+                    {
+                        "confidence": "0.6032",
+                        "content": "अंदर"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "7.76",
+                "end_time": "8.1",
+                "alternatives": [
+                    {
+                        "confidence": "0.9547",
+                        "content": "ट्रैवल"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "8.1",
+                "end_time": "8.33",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "बैन"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "8.33",
+                "end_time": "8.62",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "लगाने"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "8.62",
+                "end_time": "8.71",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "की"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "8.71",
+                "end_time": "9.05",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "तैयारी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "9.05",
+                "end_time": "9.2",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "कर"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "9.2",
+                "end_time": "9.42",
+                "alternatives": [
+                    {
+                        "confidence": "0.8924",
+                        "content": "रहे"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "9.43",
+                "end_time": "9.49",
+                "alternatives": [
+                    {
+                        "confidence": "0.7805",
+                        "content": "हैं"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "9.74",
+                "end_time": "10.01",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "क्योंकि"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "10.02",
+                "end_time": "10.28",
+                "alternatives": [
+                    {
+                        "confidence": "0.5639",
+                        "content": "आम"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "10.28",
+                "end_time": "10.5",
+                "alternatives": [
+                    {
+                        "confidence": "0.5639",
+                        "content": "तौर"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "10.5",
+                "end_time": "10.65",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "पर"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "10.65",
+                "end_time": "10.95",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "लोग"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "10.96",
+                "end_time": "11.22",
+                "alternatives": [
+                    {
+                        "confidence": "0.9967",
+                        "content": "ईद"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "11.22",
+                "end_time": "11.37",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "के"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "11.37",
+                "end_time": "11.8",
+                "alternatives": [
+                    {
+                        "confidence": "0.6517",
+                        "content": "आसपास"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "11.8",
+                "end_time": "12.1",
+                "alternatives": [
+                    {
+                        "confidence": "0.9998",
+                        "content": "यात्रा"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "12.1",
+                "end_time": "12.34",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "करने"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "12.34",
+                "end_time": "12.46",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "की"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "12.46",
+                "end_time": "12.56",
+                "alternatives": [
+                    {
+                        "confidence": "0.9951",
+                        "content": "भी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "12.56",
+                "end_time": "12.87",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "योजना"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "12.87",
+                "end_time": "13.22",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "बनाते"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "13.22",
+                "end_time": "13.38",
+                "alternatives": [
+                    {
+                        "confidence": "0.9531",
+                        "content": "हैं"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "।"
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "13.77",
+                "end_time": "14.2",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "हालांकि"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "14.2",
+                "end_time": "14.52",
+                "alternatives": [
+                    {
+                        "confidence": "0.8724",
+                        "content": "वहाँ"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "14.52",
+                "end_time": "14.62",
+                "alternatives": [
+                    {
+                        "confidence": "0.998",
+                        "content": "भी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "14.62",
+                "end_time": "14.81",
+                "alternatives": [
+                    {
+                        "confidence": "0.4675",
+                        "content": "करो"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "14.81",
+                "end_time": "14.95",
+                "alternatives": [
+                    {
+                        "confidence": "0.7399",
+                        "content": "ना"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "14.95",
+                "end_time": "15.05",
+                "alternatives": [
+                    {
+                        "confidence": "0.9835",
+                        "content": "के"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "15.05",
+                "end_time": "15.34",
+                "alternatives": [
+                    {
+                        "confidence": "0.9986",
+                        "content": "मामले"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "15.34",
+                "end_time": "15.76",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "रोजाना"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "15.76",
+                "end_time": "15.86",
+                "alternatives": [
+                    {
+                        "confidence": "0.9083",
+                        "content": "की"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "15.86",
+                "end_time": "16.22",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "बुनियाद"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "16.22",
+                "end_time": "16.36",
+                "alternatives": [
+                    {
+                        "confidence": "0.9946",
+                        "content": "पर"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "16.36",
+                "end_time": "16.6",
+                "alternatives": [
+                    {
+                        "confidence": "0.9943",
+                        "content": "बढ"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "16.6",
+                "end_time": "16.81",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "रहे"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "16.81",
+                "end_time": "16.94",
+                "alternatives": [
+                    {
+                        "confidence": "0.9305",
+                        "content": "हैं"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "।"
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "16.94",
+                "end_time": "17.27",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "लेकिन"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "17.28",
+                "end_time": "17.6",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "अभी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "17.6",
+                "end_time": "17.84",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "तक"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "17.84",
+                "end_time": "18.55",
+                "alternatives": [
+                    {
+                        "confidence": "0.9828",
+                        "content": "प्रधानमंत्री"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "18.55",
+                "end_time": "18.88",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "इमरान"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "18.88",
+                "end_time": "19.14",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "खान"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "19.14",
+                "end_time": "19.27",
+                "alternatives": [
+                    {
+                        "confidence": "0.9793",
+                        "content": "की"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "19.27",
+                "end_time": "19.62",
+                "alternatives": [
+                    {
+                        "confidence": "0.9995",
+                        "content": "सरकार"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "19.62",
+                "end_time": "19.75",
+                "alternatives": [
+                    {
+                        "confidence": "0.9995",
+                        "content": "ने"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "19.75",
+                "end_time": "20.23",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "ज्यादा"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "20.23",
+                "end_time": "20.6",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "सख्त"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "20.6",
+                "end_time": "21.01",
+                "alternatives": [
+                    {
+                        "confidence": "0.9873",
+                        "content": "प्रतिबंध"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "21.01",
+                "end_time": "21.22",
+                "alternatives": [
+                    {
+                        "confidence": "0.9994",
+                        "content": "नहीं"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "21.22",
+                "end_time": "21.53",
+                "alternatives": [
+                    {
+                        "confidence": "0.9792",
+                        "content": "लगाए"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "21.53",
+                "end_time": "21.67",
+                "alternatives": [
+                    {
+                        "confidence": "0.9927",
+                        "content": "हैं"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "22.09",
+                "end_time": "22.23",
+                "alternatives": [
+                    {
+                        "confidence": "0.9959",
+                        "content": "और"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "22.23",
+                "end_time": "22.74",
+                "alternatives": [
+                    {
+                        "confidence": "0.9938",
+                        "content": "विशेषज्ञों"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "22.74",
+                "end_time": "22.83",
+                "alternatives": [
+                    {
+                        "confidence": "0.9996",
+                        "content": "को"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "22.83",
+                "end_time": "23.1",
+                "alternatives": [
+                    {
+                        "confidence": "0.9903",
+                        "content": "डर"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "23.1",
+                "end_time": "23.31",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "है"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "23.31",
+                "end_time": "23.48",
+                "alternatives": [
+                    {
+                        "confidence": "0.8478",
+                        "content": "कि"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "23.48",
+                "end_time": "23.86",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "पहले"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "23.86",
+                "end_time": "23.98",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "से"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "23.98",
+                "end_time": "24.1",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "ही"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "24.1",
+                "end_time": "24.51",
+                "alternatives": [
+                    {
+                        "confidence": "0.9982",
+                        "content": "संघर्ष"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "24.51",
+                "end_time": "24.66",
+                "alternatives": [
+                    {
+                        "confidence": "0.9972",
+                        "content": "कर"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "24.66",
+                "end_time": "24.84",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "रहे"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "24.84",
+                "end_time": "25.36",
+                "alternatives": [
+                    {
+                        "confidence": "0.9971",
+                        "content": "पाकिस्तान"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "25.36",
+                "end_time": "25.53",
+                "alternatives": [
+                    {
+                        "confidence": "0.9977",
+                        "content": "के"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "25.81",
+                "end_time": "26.05",
+                "alternatives": [
+                    {
+                        "confidence": "0.9936",
+                        "content": "हेल्थ"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "26.05",
+                "end_time": "26.23",
+                "alternatives": [
+                    {
+                        "confidence": "0.9959",
+                        "content": "के"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "26.23",
+                "end_time": "26.58",
+                "alternatives": [
+                    {
+                        "confidence": "0.9983",
+                        "content": "सिस्टम"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "26.58",
+                "end_time": "26.74",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "पर"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "26.74",
+                "end_time": "27.16",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "दबाव"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "27.17",
+                "end_time": "27.36",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "और"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "27.36",
+                "end_time": "27.65",
+                "alternatives": [
+                    {
+                        "confidence": "0.9797",
+                        "content": "बढने"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "27.65",
+                "end_time": "27.91",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "वाला"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "27.91",
+                "end_time": "28.02",
+                "alternatives": [
+                    {
+                        "confidence": "0.7855",
+                        "content": "है"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "।"
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "28.38",
+                "end_time": "28.71",
+                "alternatives": [
+                    {
+                        "confidence": "0.6661",
+                        "content": "देखिए"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "28.71",
+                "end_time": "29.03",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "बीबीसी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "29.03",
+                "end_time": "29.7",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "संवाददाता"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "29.7",
+                "end_time": "30.35",
+                "alternatives": [
+                    {
+                        "confidence": "0.8256",
+                        "content": "उम्रदराज"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "30.35",
+                "end_time": "30.8",
+                "alternatives": [
+                    {
+                        "confidence": "0.8058",
+                        "content": "लंघेयाना"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "30.8",
+                "end_time": "30.97",
+                "alternatives": [
+                    {
+                        "confidence": "0.8055",
+                        "content": "की"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "30.97",
+                "end_time": "31.09",
+                "alternatives": [
+                    {
+                        "confidence": "0.8834",
+                        "content": "ये"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "31.09",
+                "end_time": "31.54",
+                "alternatives": [
+                    {
+                        "confidence": "0.9997",
+                        "content": "रिपोर्ट"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "35.14",
+                "end_time": "35.64",
+                "alternatives": [
+                    {
+                        "confidence": "0.9935",
+                        "content": "व्यस्त"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "35.85",
+                "end_time": "36.18",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "भीड"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "36.18",
+                "end_time": "36.35",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "से"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "36.35",
+                "end_time": "36.58",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "भरे"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "36.58",
+                "end_time": "36.95",
+                "alternatives": [
+                    {
+                        "confidence": "0.661",
+                        "content": "बाजार"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "37.39",
+                "end_time": "37.65",
+                "alternatives": [
+                    {
+                        "confidence": "0.5126",
+                        "content": "करो"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "37.65",
+                "end_time": "37.81",
+                "alternatives": [
+                    {
+                        "confidence": "0.5229",
+                        "content": "ना"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "37.81",
+                "end_time": "37.94",
+                "alternatives": [
+                    {
+                        "confidence": "0.9995",
+                        "content": "के"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "37.94",
+                "end_time": "38.31",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "खतरे"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "38.31",
+                "end_time": "38.42",
+                "alternatives": [
+                    {
+                        "confidence": "0.9887",
+                        "content": "के"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "38.42",
+                "end_time": "38.97",
+                "alternatives": [
+                    {
+                        "confidence": "0.9887",
+                        "content": "बावजूद"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "39.22",
+                "end_time": "39.47",
+                "alternatives": [
+                    {
+                        "confidence": "0.9895",
+                        "content": "दिन"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "39.47",
+                "end_time": "39.62",
+                "alternatives": [
+                    {
+                        "confidence": "0.9895",
+                        "content": "में"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "39.68",
+                "end_time": "40.06",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "आठ"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "40.06",
+                "end_time": "40.47",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "घंटे"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "40.47",
+                "end_time": "40.61",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "और"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "40.61",
+                "end_time": "41.0",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "सप्ताह"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "41.0",
+                "end_time": "41.1",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "में"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "41.11",
+                "end_time": "41.54",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "पांच"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "41.54",
+                "end_time": "41.72",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "दिन"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "41.72",
+                "end_time": "42.1",
+                "alternatives": [
+                    {
+                        "confidence": "0.5568",
+                        "content": "खोलती"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "42.1",
+                "end_time": "42.57",
+                "alternatives": [
+                    {
+                        "confidence": "0.9903",
+                        "content": "दुकानें"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "42.64",
+                "end_time": "42.86",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "और"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "42.86",
+                "end_time": "43.04",
+                "alternatives": [
+                    {
+                        "confidence": "0.3069",
+                        "content": "मार"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "43.04",
+                "end_time": "43.21",
+                "alternatives": [
+                    {
+                        "confidence": "0.4787",
+                        "content": "के"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "45.54",
+                "end_time": "45.97",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "सोशल"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "45.97",
+                "end_time": "46.54",
+                "alternatives": [
+                    {
+                        "confidence": "0.4307",
+                        "content": "डिस्पेंसिंग"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "46.54",
+                "end_time": "46.67",
+                "alternatives": [
+                    {
+                        "confidence": "0.9996",
+                        "content": "का"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "46.67",
+                "end_time": "46.92",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "तो"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "47.06",
+                "end_time": "47.5",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "सवाल"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "47.5",
+                "end_time": "47.59",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "ही"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "47.59",
+                "end_time": "47.83",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "नहीं"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "47.83",
+                "end_time": "48.14",
+                "alternatives": [
+                    {
+                        "confidence": "0.8851",
+                        "content": "उठता"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "।"
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "48.69",
+                "end_time": "49.14",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "नतीजा"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "49.71",
+                "end_time": "50.16",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "मरीजों"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "50.16",
+                "end_time": "50.32",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "से"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "50.32",
+                "end_time": "50.58",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "भरे"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "50.58",
+                "end_time": "50.78",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "हुए"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "50.78",
+                "end_time": "51.39",
+                "alternatives": [
+                    {
+                        "confidence": "0.9983",
+                        "content": "अस्पताल"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "51.69",
+                "end_time": "52.05",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "जैसे"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "52.05",
+                "end_time": "52.37",
+                "alternatives": [
+                    {
+                        "confidence": "0.9378",
+                        "content": "उत्तर"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "52.37",
+                "end_time": "52.69",
+                "alternatives": [
+                    {
+                        "confidence": "0.9378",
+                        "content": "पूर्वी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "52.69",
+                "end_time": "53.32",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "पाकिस्तान"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "53.32",
+                "end_time": "53.59",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "के"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "53.6",
+                "end_time": "54.28",
+                "alternatives": [
+                    {
+                        "confidence": "0.9554",
+                        "content": "गुजरांवाला"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "54.28",
+                "end_time": "54.52",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "का"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "54.63",
+                "end_time": "54.82",
+                "alternatives": [
+                    {
+                        "confidence": "0.8406",
+                        "content": "ये"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "54.82",
+                "end_time": "55.27",
+                "alternatives": [
+                    {
+                        "confidence": "0.9824",
+                        "content": "अस्पताल"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "56.24",
+                "end_time": "61.59",
+                "alternatives": [
+                    {
+                        "confidence": "0.5877",
+                        "content": "ऍम"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "61.97",
+                "end_time": "62.41",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "अस्पताल"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "62.41",
+                "end_time": "62.78",
+                "alternatives": [
+                    {
+                        "confidence": "0.9923",
+                        "content": "प्रमुख"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "62.78",
+                "end_time": "62.95",
+                "alternatives": [
+                    {
+                        "confidence": "0.991",
+                        "content": "ने"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "63.15",
+                "end_time": "63.5",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "हमें"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "63.5",
+                "end_time": "63.96",
+                "alternatives": [
+                    {
+                        "confidence": "0.9997",
+                        "content": "इसका"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "64.11",
+                "end_time": "64.53",
+                "alternatives": [
+                    {
+                        "confidence": "0.4184",
+                        "content": "आईसीओ"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "64.53",
+                "end_time": "64.94",
+                "alternatives": [
+                    {
+                        "confidence": "0.9973",
+                        "content": "दिखाया"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "।"
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "65.86",
+                "end_time": "66.11",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "यहाँ"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "66.11",
+                "end_time": "66.69",
+                "alternatives": [
+                    {
+                        "confidence": "0.495",
+                        "content": "वेंटिलेटर्स"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "66.69",
+                "end_time": "66.84",
+                "alternatives": [
+                    {
+                        "confidence": "0.9727",
+                        "content": "की"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "66.85",
+                "end_time": "67.27",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "सख्त"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "67.27",
+                "end_time": "67.54",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "कमी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "67.55",
+                "end_time": "67.68",
+                "alternatives": [
+                    {
+                        "confidence": "0.9623",
+                        "content": "है"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "68.1",
+                "end_time": "68.26",
+                "alternatives": [
+                    {
+                        "confidence": "0.9039",
+                        "content": "और"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "68.26",
+                "end_time": "68.75",
+                "alternatives": [
+                    {
+                        "confidence": "0.9091",
+                        "content": "ऑक्सीजन"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "68.75",
+                "end_time": "68.93",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "भी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "68.94",
+                "end_time": "69.36",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "तेजी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "69.36",
+                "end_time": "69.52",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "से"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "69.53",
+                "end_time": "69.89",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "खत्म"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "69.89",
+                "end_time": "70.05",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "हो"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "70.05",
+                "end_time": "70.32",
+                "alternatives": [
+                    {
+                        "confidence": "0.9991",
+                        "content": "रही"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "70.33",
+                "end_time": "70.44",
+                "alternatives": [
+                    {
+                        "confidence": "0.902",
+                        "content": "है"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "।"
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "72.88",
+                "end_time": "73.86",
+                "alternatives": [
+                    {
+                        "confidence": "0.2552",
+                        "content": "फॅर"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "74.18",
+                "end_time": "74.97",
+                "alternatives": [
+                    {
+                        "confidence": "0.9737",
+                        "content": "बडे"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "74.97",
+                "end_time": "75.78",
+                "alternatives": [
+                    {
+                        "confidence": "0.8654",
+                        "content": "अफसोसजनक"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "75.78",
+                "end_time": "76.18",
+                "alternatives": [
+                    {
+                        "confidence": "0.7517",
+                        "content": "हालत"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "76.18",
+                "end_time": "76.35",
+                "alternatives": [
+                    {
+                        "confidence": "0.8682",
+                        "content": "है"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "।"
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "76.75",
+                "end_time": "77.15",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "हमारे"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "77.15",
+                "end_time": "77.33",
+                "alternatives": [
+                    {
+                        "confidence": "0.8823",
+                        "content": "यहाँ"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "77.34",
+                "end_time": "77.6",
+                "alternatives": [
+                    {
+                        "confidence": "0.9713",
+                        "content": "पांच"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "77.6",
+                "end_time": "77.72",
+                "alternatives": [
+                    {
+                        "confidence": "0.9882",
+                        "content": "सौ"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "77.72",
+                "end_time": "77.98",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "दस"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "77.98",
+                "end_time": "78.34",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "मरीज"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "78.34",
+                "end_time": "78.68",
+                "alternatives": [
+                    {
+                        "confidence": "0.9659",
+                        "content": "भर्ती"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "78.68",
+                "end_time": "78.94",
+                "alternatives": [
+                    {
+                        "confidence": "0.9767",
+                        "content": "थे"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "79.2",
+                "end_time": "79.46",
+                "alternatives": [
+                    {
+                        "confidence": "0.996",
+                        "content": "जिनमें"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "79.46",
+                "end_time": "79.63",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "से"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "79.63",
+                "end_time": "79.83",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "एक"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "79.83",
+                "end_time": "80.02",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "सौ"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "80.02",
+                "end_time": "80.42",
+                "alternatives": [
+                    {
+                        "confidence": "0.8044",
+                        "content": "तिरासी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "80.42",
+                "end_time": "80.6",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "की"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "80.6",
+                "end_time": "80.94",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "मौत"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "80.94",
+                "end_time": "81.06",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "हो"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "81.06",
+                "end_time": "81.37",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "चुकी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "81.37",
+                "end_time": "81.55",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "है"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "81.95",
+                "end_time": "82.28",
+                "alternatives": [
+                    {
+                        "confidence": "0.9822",
+                        "content": "क्योंकि"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "82.28",
+                "end_time": "82.73",
+                "alternatives": [
+                    {
+                        "confidence": "0.9995",
+                        "content": "मरीजों"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "82.73",
+                "end_time": "82.93",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "को"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "82.93",
+                "end_time": "83.16",
+                "alternatives": [
+                    {
+                        "confidence": "0.7289",
+                        "content": "यहाँ"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "83.16",
+                "end_time": "83.49",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "बेहद"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "83.49",
+                "end_time": "84.01",
+                "alternatives": [
+                    {
+                        "confidence": "0.9885",
+                        "content": "गंभीर"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "84.01",
+                "end_time": "84.37",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "हालत"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "84.37",
+                "end_time": "84.48",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "में"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "84.48",
+                "end_time": "84.84",
+                "alternatives": [
+                    {
+                        "confidence": "0.9477",
+                        "content": "भर्ती"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "84.84",
+                "end_time": "85.22",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "कराया"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "85.22",
+                "end_time": "85.39",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "जा"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "85.39",
+                "end_time": "85.71",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "रहा"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "85.71",
+                "end_time": "85.86",
+                "alternatives": [
+                    {
+                        "confidence": "0.9982",
+                        "content": "है"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "।"
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "86.34",
+                "end_time": "86.87",
+                "alternatives": [
+                    {
+                        "confidence": "0.5623",
+                        "content": "पिछले"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "87.24",
+                "end_time": "88.13",
+                "alternatives": [
+                    {
+                        "confidence": "0.9216",
+                        "content": "और"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "88.13",
+                "end_time": "89.15",
+                "alternatives": [
+                    {
+                        "confidence": "0.6271",
+                        "content": "ऍम"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "90.82",
+                "end_time": "91.19",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "छोटे"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "91.19",
+                "end_time": "91.58",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "शहरों"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "91.58",
+                "end_time": "91.72",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "और"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "91.72",
+                "end_time": "92.06",
+                "alternatives": [
+                    {
+                        "confidence": "0.6717",
+                        "content": "गांवों"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "92.06",
+                "end_time": "92.19",
+                "alternatives": [
+                    {
+                        "confidence": "0.9991",
+                        "content": "के"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "92.19",
+                "end_time": "92.73",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "अस्पतालों"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "92.73",
+                "end_time": "92.92",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "में"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "92.93",
+                "end_time": "93.24",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "जब"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "93.24",
+                "end_time": "93.51",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "जगह"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "93.51",
+                "end_time": "93.72",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "नहीं"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "93.72",
+                "end_time": "93.89",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "मिल"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "93.89",
+                "end_time": "94.09",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "रही"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "94.09",
+                "end_time": "94.25",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "है"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "94.37",
+                "end_time": "94.71",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "तो"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "94.71",
+                "end_time": "95.05",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "लोग"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "95.05",
+                "end_time": "95.28",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "बडे"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "95.28",
+                "end_time": "95.61",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "शहरों"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "95.61",
+                "end_time": "95.83",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "का"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "95.83",
+                "end_time": "96.05",
+                "alternatives": [
+                    {
+                        "confidence": "0.9834",
+                        "content": "रुख"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "96.05",
+                "end_time": "96.22",
+                "alternatives": [
+                    {
+                        "confidence": "0.9995",
+                        "content": "कर"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "96.22",
+                "end_time": "96.46",
+                "alternatives": [
+                    {
+                        "confidence": "0.9995",
+                        "content": "रहे"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "96.46",
+                "end_time": "96.6",
+                "alternatives": [
+                    {
+                        "confidence": "0.9993",
+                        "content": "हैं"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "96.96",
+                "end_time": "97.31",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "लेकिन"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "97.31",
+                "end_time": "97.8",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "लाहौर"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "97.8",
+                "end_time": "97.91",
+                "alternatives": [
+                    {
+                        "confidence": "0.98",
+                        "content": "के"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "97.91",
+                "end_time": "98.41",
+                "alternatives": [
+                    {
+                        "confidence": "0.9852",
+                        "content": "अस्पताल"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "98.41",
+                "end_time": "98.62",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "भी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "98.73",
+                "end_time": "99.17",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "पूरी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "99.17",
+                "end_time": "99.46",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "तरह"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "99.47",
+                "end_time": "99.68",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "से"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "99.68",
+                "end_time": "100.01",
+                "alternatives": [
+                    {
+                        "confidence": "0.9842",
+                        "content": "भरे"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "100.02",
+                "end_time": "100.15",
+                "alternatives": [
+                    {
+                        "confidence": "0.8939",
+                        "content": "हैं"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "।"
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "103.44",
+                "end_time": "104.01",
+                "alternatives": [
+                    {
+                        "confidence": "0.9496",
+                        "content": "हालात"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "104.02",
+                "end_time": "104.33",
+                "alternatives": [
+                    {
+                        "confidence": "0.9873",
+                        "content": "इतने"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "104.33",
+                "end_time": "104.56",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "बुरे"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "104.56",
+                "end_time": "104.73",
+                "alternatives": [
+                    {
+                        "confidence": "0.937",
+                        "content": "हैं"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "105.05",
+                "end_time": "105.17",
+                "alternatives": [
+                    {
+                        "confidence": "0.9384",
+                        "content": "की"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "105.17",
+                "end_time": "105.47",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "मदद"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "105.47",
+                "end_time": "105.61",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "के"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "105.61",
+                "end_time": "105.84",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "लिए"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "105.96",
+                "end_time": "106.3",
+                "alternatives": [
+                    {
+                        "confidence": "0.9668",
+                        "content": "आर्मी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "106.3",
+                "end_time": "106.63",
+                "alternatives": [
+                    {
+                        "confidence": "0.7666",
+                        "content": "बुलाने"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "106.63",
+                "end_time": "106.81",
+                "alternatives": [
+                    {
+                        "confidence": "0.9281",
+                        "content": "पड"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "106.81",
+                "end_time": "107.06",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "रही"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "107.07",
+                "end_time": "107.14",
+                "alternatives": [
+                    {
+                        "confidence": "0.8683",
+                        "content": "है"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "।"
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "109.14",
+                "end_time": "110.84",
+                "alternatives": [
+                    {
+                        "confidence": "0.5835",
+                        "content": "ऍम"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "111.35",
+                "end_time": "111.91",
+                "alternatives": [
+                    {
+                        "confidence": "0.8955",
+                        "content": "सरकार"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "111.91",
+                "end_time": "112.02",
+                "alternatives": [
+                    {
+                        "confidence": "0.8817",
+                        "content": "के"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "112.02",
+                "end_time": "112.5",
+                "alternatives": [
+                    {
+                        "confidence": "0.7633",
+                        "content": "लगाए"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "112.51",
+                "end_time": "112.8",
+                "alternatives": [
+                    {
+                        "confidence": "0.4202",
+                        "content": "करो"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "112.8",
+                "end_time": "112.94",
+                "alternatives": [
+                    {
+                        "confidence": "0.4232",
+                        "content": "ना"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "112.94",
+                "end_time": "113.5",
+                "alternatives": [
+                    {
+                        "confidence": "0.9976",
+                        "content": "प्रतिबंधों"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "113.5",
+                "end_time": "113.67",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "को"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "113.67",
+                "end_time": "114.0",
+                "alternatives": [
+                    {
+                        "confidence": "0.9988",
+                        "content": "लागू"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "114.0",
+                "end_time": "114.46",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "करवाने"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "114.46",
+                "end_time": "114.62",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "के"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "114.62",
+                "end_time": "114.83",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "लिए"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "114.83",
+                "end_time": "114.99",
+                "alternatives": [
+                    {
+                        "confidence": "0.9359",
+                        "content": "ये"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "114.99",
+                "end_time": "115.38",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "सैनिक"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "115.38",
+                "end_time": "115.72",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "सडकों"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "115.72",
+                "end_time": "115.89",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "पर"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "115.89",
+                "end_time": "116.02",
+                "alternatives": [
+                    {
+                        "confidence": "0.8411",
+                        "content": "है"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "।"
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "116.37",
+                "end_time": "116.8",
+                "alternatives": [
+                    {
+                        "confidence": "0.5738",
+                        "content": "आईडिया"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "116.8",
+                "end_time": "117.04",
+                "alternatives": [
+                    {
+                        "confidence": "0.562",
+                        "content": "ये"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "117.04",
+                "end_time": "117.19",
+                "alternatives": [
+                    {
+                        "confidence": "0.9795",
+                        "content": "है"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "117.19",
+                "end_time": "117.32",
+                "alternatives": [
+                    {
+                        "confidence": "0.7752",
+                        "content": "कि"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "117.32",
+                "end_time": "117.81",
+                "alternatives": [
+                    {
+                        "confidence": "0.9397",
+                        "content": "बंदूक"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "117.81",
+                "end_time": "118.04",
+                "alternatives": [
+                    {
+                        "confidence": "0.9962",
+                        "content": "लिए"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "118.04",
+                "end_time": "118.29",
+                "alternatives": [
+                    {
+                        "confidence": "0.9819",
+                        "content": "हुए"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "118.29",
+                "end_time": "118.95",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "वर्दीधारी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "118.95",
+                "end_time": "119.39",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "सैनिकों"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "119.39",
+                "end_time": "119.54",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "को"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "119.54",
+                "end_time": "120.03",
+                "alternatives": [
+                    {
+                        "confidence": "0.6523",
+                        "content": "देखकर"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "120.28",
+                "end_time": "120.56",
+                "alternatives": [
+                    {
+                        "confidence": "0.9988",
+                        "content": "लोग"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "120.56",
+                "end_time": "121.02",
+                "alternatives": [
+                    {
+                        "confidence": "0.9626",
+                        "content": "करेंगे"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "121.25",
+                "end_time": "121.43",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "और"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "121.43",
+                "end_time": "121.72",
+                "alternatives": [
+                    {
+                        "confidence": "0.3477",
+                        "content": "माँ"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "121.72",
+                "end_time": "121.91",
+                "alternatives": [
+                    {
+                        "confidence": "0.4081",
+                        "content": "और"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "121.91",
+                "end_time": "122.31",
+                "alternatives": [
+                    {
+                        "confidence": "0.9979",
+                        "content": "सोशल"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "122.31",
+                "end_time": "122.71",
+                "alternatives": [
+                    {
+                        "confidence": "0.7941",
+                        "content": "डिस्टेंस"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "122.71",
+                "end_time": "122.85",
+                "alternatives": [
+                    {
+                        "confidence": "0.4421",
+                        "content": "सिंह"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "122.85",
+                "end_time": "123.0",
+                "alternatives": [
+                    {
+                        "confidence": "0.6217",
+                        "content": "का"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "123.0",
+                "end_time": "123.35",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "पालन"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "123.35",
+                "end_time": "123.74",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "करेंगे"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "124.13",
+                "end_time": "124.39",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "लेकिन"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "124.39",
+                "end_time": "124.82",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "लाहौर"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "124.82",
+                "end_time": "125.11",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "जैसे"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "125.11",
+                "end_time": "125.33",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "बडे"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "125.33",
+                "end_time": "125.65",
+                "alternatives": [
+                    {
+                        "confidence": "0.9993",
+                        "content": "शहर"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "125.65",
+                "end_time": "125.84",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "में"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "125.84",
+                "end_time": "125.98",
+                "alternatives": [
+                    {
+                        "confidence": "0.9997",
+                        "content": "ये"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "125.98",
+                "end_time": "126.42",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "सब"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "126.43",
+                "end_time": "126.77",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "अमल"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "126.77",
+                "end_time": "126.9",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "में"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "126.9",
+                "end_time": "127.3",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "लाना"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "127.31",
+                "end_time": "127.72",
+                "alternatives": [
+                    {
+                        "confidence": "0.9976",
+                        "content": "सेना"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "127.72",
+                "end_time": "127.88",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "के"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "127.88",
+                "end_time": "128.11",
+                "alternatives": [
+                    {
+                        "confidence": "0.9985",
+                        "content": "लिए"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "128.11",
+                "end_time": "128.27",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "भी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "128.27",
+                "end_time": "128.48",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "बडा"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "128.48",
+                "end_time": "128.83",
+                "alternatives": [
+                    {
+                        "confidence": "0.9965",
+                        "content": "मुश्किल"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "128.83",
+                "end_time": "129.07",
+                "alternatives": [
+                    {
+                        "confidence": "0.4478",
+                        "content": "का"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "129.07",
+                "end_time": "129.85",
+                "alternatives": [
+                    {
+                        "confidence": "0.3036",
+                        "content": "ऍम"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "134.34",
+                "end_time": "134.77",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "सेना"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "134.77",
+                "end_time": "134.9",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "के"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "134.9",
+                "end_time": "135.35",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "जवान"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "135.54",
+                "end_time": "135.87",
+                "alternatives": [
+                    {
+                        "confidence": "0.9996",
+                        "content": "सोलह"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "135.87",
+                "end_time": "136.21",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "शहरों"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "136.21",
+                "end_time": "136.32",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "में"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "136.33",
+                "end_time": "136.71",
+                "alternatives": [
+                    {
+                        "confidence": "0.9989",
+                        "content": "गश्त"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "136.71",
+                "end_time": "137.17",
+                "alternatives": [
+                    {
+                        "confidence": "0.9986",
+                        "content": "लगाकर"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "137.17",
+                "end_time": "137.53",
+                "alternatives": [
+                    {
+                        "confidence": "0.9993",
+                        "content": "पुलिस"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "137.53",
+                "end_time": "137.68",
+                "alternatives": [
+                    {
+                        "confidence": "0.9555",
+                        "content": "की"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "137.68",
+                "end_time": "137.93",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "मदद"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "137.93",
+                "end_time": "138.1",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "कर"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "138.1",
+                "end_time": "138.31",
+                "alternatives": [
+                    {
+                        "confidence": "0.9989",
+                        "content": "रहे"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "138.31",
+                "end_time": "138.44",
+                "alternatives": [
+                    {
+                        "confidence": "0.8337",
+                        "content": "हैं"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "।"
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "138.94",
+                "end_time": "139.41",
+                "alternatives": [
+                    {
+                        "confidence": "0.51",
+                        "content": "कोरोना"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "139.41",
+                "end_time": "139.56",
+                "alternatives": [
+                    {
+                        "confidence": "0.9992",
+                        "content": "से"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "139.56",
+                "end_time": "140.03",
+                "alternatives": [
+                    {
+                        "confidence": "0.9992",
+                        "content": "निपटने"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "140.03",
+                "end_time": "140.16",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "के"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "140.16",
+                "end_time": "140.34",
+                "alternatives": [
+                    {
+                        "confidence": "0.9976",
+                        "content": "लिए"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "140.34",
+                "end_time": "140.73",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "ज्यादा"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "140.73",
+                "end_time": "140.85",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "से"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "140.85",
+                "end_time": "141.19",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "ज्यादा"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "141.19",
+                "end_time": "141.48",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "लोगों"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "141.48",
+                "end_time": "141.64",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "को"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "141.64",
+                "end_time": "141.9",
+                "alternatives": [
+                    {
+                        "confidence": "0.5678",
+                        "content": "गायक"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "141.9",
+                "end_time": "142.18",
+                "alternatives": [
+                    {
+                        "confidence": "0.3634",
+                        "content": "सील"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "142.18",
+                "end_time": "142.44",
+                "alternatives": [
+                    {
+                        "confidence": "0.993",
+                        "content": "देनी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "142.44",
+                "end_time": "142.74",
+                "alternatives": [
+                    {
+                        "confidence": "0.9994",
+                        "content": "होगी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "146.25",
+                "end_time": "146.55",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "लेकिन"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "146.55",
+                "end_time": "146.9",
+                "alternatives": [
+                    {
+                        "confidence": "0.8839",
+                        "content": "वहाँ"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "146.91",
+                "end_time": "147.59",
+                "alternatives": [
+                    {
+                        "confidence": "0.9992",
+                        "content": "टीकाकरण"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "147.6",
+                "end_time": "147.98",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "धीमी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "147.98",
+                "end_time": "148.4",
+                "alternatives": [
+                    {
+                        "confidence": "0.9996",
+                        "content": "रफ्तार"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "148.4",
+                "end_time": "148.56",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "से"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "148.56",
+                "end_time": "148.78",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "चल"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "148.78",
+                "end_time": "149.02",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "रहा"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "149.02",
+                "end_time": "149.18",
+                "alternatives": [
+                    {
+                        "confidence": "0.9994",
+                        "content": "है"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "।"
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "149.81",
+                "end_time": "150.29",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "सिर्फ"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "150.29",
+                "end_time": "150.59",
+                "alternatives": [
+                    {
+                        "confidence": "0.6655",
+                        "content": "बीस"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "150.59",
+                "end_time": "150.89",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "लाख"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "150.89",
+                "end_time": "151.14",
+                "alternatives": [
+                    {
+                        "confidence": "0.9997",
+                        "content": "लोगों"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "151.14",
+                "end_time": "151.31",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "को"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "151.31",
+                "end_time": "151.48",
+                "alternatives": [
+                    {
+                        "confidence": "0.9913",
+                        "content": "ही"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "151.48",
+                "end_time": "151.96",
+                "alternatives": [
+                    {
+                        "confidence": "0.413",
+                        "content": "वैसी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "151.96",
+                "end_time": "152.16",
+                "alternatives": [
+                    {
+                        "confidence": "0.6653",
+                        "content": "लग"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "152.16",
+                "end_time": "152.4",
+                "alternatives": [
+                    {
+                        "confidence": "0.6413",
+                        "content": "पाई"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "152.41",
+                "end_time": "152.56",
+                "alternatives": [
+                    {
+                        "confidence": "0.9441",
+                        "content": "है"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "।"
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "153.25",
+                "end_time": "153.47",
+                "alternatives": [
+                    {
+                        "confidence": "0.9831",
+                        "content": "अब"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "153.47",
+                "end_time": "153.7",
+                "alternatives": [
+                    {
+                        "confidence": "0.9878",
+                        "content": "भी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "153.9",
+                "end_time": "154.26",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "करीब"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "154.26",
+                "end_time": "154.56",
+                "alternatives": [
+                    {
+                        "confidence": "0.9928",
+                        "content": "बाईस"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "154.56",
+                "end_time": "154.91",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "करोड"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "154.91",
+                "end_time": "155.17",
+                "alternatives": [
+                    {
+                        "confidence": "0.9997",
+                        "content": "लोगों"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "155.17",
+                "end_time": "155.36",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "को"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "155.36",
+                "end_time": "155.77",
+                "alternatives": [
+                    {
+                        "confidence": "0.8041",
+                        "content": "वैक्सी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "155.77",
+                "end_time": "156.13",
+                "alternatives": [
+                    {
+                        "confidence": "0.9836",
+                        "content": "लगनी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "156.13",
+                "end_time": "156.48",
+                "alternatives": [
+                    {
+                        "confidence": "0.8891",
+                        "content": "बाकी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "156.48",
+                "end_time": "156.67",
+                "alternatives": [
+                    {
+                        "confidence": "0.9996",
+                        "content": "है"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "।"
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "157.21",
+                "end_time": "157.67",
+                "alternatives": [
+                    {
+                        "confidence": "0.9945",
+                        "content": "सरकार"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "157.67",
+                "end_time": "158.04",
+                "alternatives": [
+                    {
+                        "confidence": "0.8962",
+                        "content": "लौटा"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "158.04",
+                "end_time": "158.31",
+                "alternatives": [
+                    {
+                        "confidence": "0.9642",
+                        "content": "उनकी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "158.31",
+                "end_time": "158.58",
+                "alternatives": [
+                    {
+                        "confidence": "0.9986",
+                        "content": "मांग"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "158.58",
+                "end_time": "158.82",
+                "alternatives": [
+                    {
+                        "confidence": "0.9995",
+                        "content": "को"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "158.83",
+                "end_time": "159.01",
+                "alternatives": [
+                    {
+                        "confidence": "0.8756",
+                        "content": "अब"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "159.01",
+                "end_time": "159.36",
+                "alternatives": [
+                    {
+                        "confidence": "0.8756",
+                        "content": "तक"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "159.37",
+                "end_time": "159.91",
+                "alternatives": [
+                    {
+                        "confidence": "0.9996",
+                        "content": "नकारते"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "159.91",
+                "end_time": "160.08",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "आई"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "160.09",
+                "end_time": "160.25",
+                "alternatives": [
+                    {
+                        "confidence": "0.9998",
+                        "content": "है"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "160.6",
+                "end_time": "160.81",
+                "alternatives": [
+                    {
+                        "confidence": "0.9968",
+                        "content": "आई"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "160.81",
+                "end_time": "161.11",
+                "alternatives": [
+                    {
+                        "confidence": "0.983",
+                        "content": "एग्री"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "161.11",
+                "end_time": "161.45",
+                "alternatives": [
+                    {
+                        "confidence": "0.7921",
+                        "content": "वृद्धि"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "161.45",
+                "end_time": "162.24",
+                "alternatives": [
+                    {
+                        "confidence": "0.3389",
+                        "content": "ऍम"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "162.24",
+                "end_time": "162.66",
+                "alternatives": [
+                    {
+                        "confidence": "0.9782",
+                        "content": "डॉक्टरों"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "162.66",
+                "end_time": "162.8",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "की"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "162.8",
+                "end_time": "163.02",
+                "alternatives": [
+                    {
+                        "confidence": "0.9992",
+                        "content": "राय"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "163.02",
+                "end_time": "163.2",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "से"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "163.2",
+                "end_time": "163.63",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "सहमत"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "163.63",
+                "end_time": "164.06",
+                "alternatives": [
+                    {
+                        "confidence": "0.9895",
+                        "content": "हूँ"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "।"
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "164.07",
+                "end_time": "164.38",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "लेकिन"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "164.38",
+                "end_time": "164.84",
+                "alternatives": [
+                    {
+                        "confidence": "0.8317",
+                        "content": "लॉकडाउन"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "164.84",
+                "end_time": "165.22",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "लगाने"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "165.22",
+                "end_time": "165.37",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "से"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "165.37",
+                "end_time": "165.77",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "पहले"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "165.78",
+                "end_time": "166.07",
+                "alternatives": [
+                    {
+                        "confidence": "0.8861",
+                        "content": "आपको"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "166.07",
+                "end_time": "166.4",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "पूरे"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "166.4",
+                "end_time": "166.84",
+                "alternatives": [
+                    {
+                        "confidence": "0.6033",
+                        "content": "हालात"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "166.84",
+                "end_time": "167.23",
+                "alternatives": [
+                    {
+                        "confidence": "0.9648",
+                        "content": "समझने"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "167.23",
+                "end_time": "167.6",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "होंगे"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "।"
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "167.83",
+                "end_time": "168.5",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "पाकिस्तान"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "168.5",
+                "end_time": "168.8",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "जैसे"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "168.8",
+                "end_time": "169.53",
+                "alternatives": [
+                    {
+                        "confidence": "0.9969",
+                        "content": "विकासशील"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "169.53",
+                "end_time": "169.85",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "देश"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "169.85",
+                "end_time": "170.05",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "में"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "170.25",
+                "end_time": "170.61",
+                "alternatives": [
+                    {
+                        "confidence": "0.9939",
+                        "content": "इतनी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "170.61",
+                "end_time": "171.12",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "ज्यादा"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "171.12",
+                "end_time": "171.46",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "आर्थिक"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "171.46",
+                "end_time": "171.95",
+                "alternatives": [
+                    {
+                        "confidence": "0.5752",
+                        "content": "समस्याएं"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "171.95",
+                "end_time": "172.22",
+                "alternatives": [
+                    {
+                        "confidence": "0.9935",
+                        "content": "हैं"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "।"
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "172.47",
+                "end_time": "172.76",
+                "alternatives": [
+                    {
+                        "confidence": "0.997",
+                        "content": "देश"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "172.76",
+                "end_time": "172.91",
+                "alternatives": [
+                    {
+                        "confidence": "0.9261",
+                        "content": "की"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "172.91",
+                "end_time": "173.32",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "चालीस"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "173.32",
+                "end_time": "173.45",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "से"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "173.45",
+                "end_time": "173.82",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "पचास"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "173.82",
+                "end_time": "174.12",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "फीसदी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "174.13",
+                "end_time": "174.66",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "आबादी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "174.86",
+                "end_time": "175.28",
+                "alternatives": [
+                    {
+                        "confidence": "0.9991",
+                        "content": "दैनिक"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "175.28",
+                "end_time": "175.77",
+                "alternatives": [
+                    {
+                        "confidence": "0.9977",
+                        "content": "कामगारों"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "175.77",
+                "end_time": "175.93",
+                "alternatives": [
+                    {
+                        "confidence": "0.9426",
+                        "content": "की"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "175.93",
+                "end_time": "176.14",
+                "alternatives": [
+                    {
+                        "confidence": "0.9999",
+                        "content": "है"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "176.24",
+                "end_time": "176.46",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "तो"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "176.46",
+                "end_time": "176.95",
+                "alternatives": [
+                    {
+                        "confidence": "0.0908",
+                        "content": "लाॅन"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "176.95",
+                "end_time": "177.11",
+                "alternatives": [
+                    {
+                        "confidence": "0.9116",
+                        "content": "का"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "177.11",
+                "end_time": "177.26",
+                "alternatives": [
+                    {
+                        "confidence": "0.9949",
+                        "content": "उन"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "177.26",
+                "end_time": "177.41",
+                "alternatives": [
+                    {
+                        "confidence": "0.9949",
+                        "content": "पर"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "177.41",
+                "end_time": "177.79",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "बहुत"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "177.79",
+                "end_time": "178.07",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "बुरा"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "178.07",
+                "end_time": "178.31",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "असर"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "178.31",
+                "end_time": "179.35",
+                "alternatives": [
+                    {
+                        "confidence": "0.1941",
+                        "content": "हाॅल"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "।"
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "182.24",
+                "end_time": "182.58",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "रात"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "182.58",
+                "end_time": "182.65",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "में"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "182.65",
+                "end_time": "182.85",
+                "alternatives": [
+                    {
+                        "confidence": "0.8711",
+                        "content": "पढ"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "182.85",
+                "end_time": "183.11",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "रहे"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "183.11",
+                "end_time": "183.24",
+                "alternatives": [
+                    {
+                        "confidence": "0.9794",
+                        "content": "ये"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "183.24",
+                "end_time": "183.7",
+                "alternatives": [
+                    {
+                        "confidence": "0.993",
+                        "content": "छापे"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "183.83",
+                "end_time": "184.16",
+                "alternatives": [
+                    {
+                        "confidence": "0.9996",
+                        "content": "लोगों"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "184.16",
+                "end_time": "184.39",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "तक"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "184.39",
+                "end_time": "184.5",
+                "alternatives": [
+                    {
+                        "confidence": "0.7054",
+                        "content": "यह"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "184.5",
+                "end_time": "184.92",
+                "alternatives": [
+                    {
+                        "confidence": "0.999",
+                        "content": "संदेश"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "184.92",
+                "end_time": "185.45",
+                "alternatives": [
+                    {
+                        "confidence": "0.9896",
+                        "content": "पहुंचाने"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "185.45",
+                "end_time": "185.6",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "के"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "185.6",
+                "end_time": "185.83",
+                "alternatives": [
+                    {
+                        "confidence": "0.9993",
+                        "content": "लिए"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "185.83",
+                "end_time": "186.02",
+                "alternatives": [
+                    {
+                        "confidence": "0.5675",
+                        "content": "है"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "186.22",
+                "end_time": "186.36",
+                "alternatives": [
+                    {
+                        "confidence": "0.8693",
+                        "content": "कि"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "186.36",
+                "end_time": "186.66",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "नियम"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "186.66",
+                "end_time": "186.99",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "तोडने"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "186.99",
+                "end_time": "187.3",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "वालों"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "187.3",
+                "end_time": "187.45",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "को"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "187.45",
+                "end_time": "187.88",
+                "alternatives": [
+                    {
+                        "confidence": "0.9874",
+                        "content": "बख्शा"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "187.88",
+                "end_time": "188.11",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "नहीं"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "188.11",
+                "end_time": "188.54",
+                "alternatives": [
+                    {
+                        "confidence": "0.9939",
+                        "content": "जाएगा"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "।"
+                    }
+                ],
+                "type": "punctuation"
+            },
+            {
+                "start_time": "189.04",
+                "end_time": "189.45",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "पडोसी"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "189.45",
+                "end_time": "189.79",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "देश"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "189.79",
+                "end_time": "190.13",
+                "alternatives": [
+                    {
+                        "confidence": "0.9997",
+                        "content": "भारत"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "190.13",
+                "end_time": "190.25",
+                "alternatives": [
+                    {
+                        "confidence": "0.9996",
+                        "content": "के"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "190.25",
+                "end_time": "190.46",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "बुरे"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "190.46",
+                "end_time": "190.91",
+                "alternatives": [
+                    {
+                        "confidence": "0.8962",
+                        "content": "हालत"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "190.91",
+                "end_time": "191.36",
+                "alternatives": [
+                    {
+                        "confidence": "0.8461",
+                        "content": "देखकर"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "191.56",
+                "end_time": "191.8",
+                "alternatives": [
+                    {
+                        "confidence": "0.9936",
+                        "content": "लोग"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "191.8",
+                "end_time": "192.16",
+                "alternatives": [
+                    {
+                        "confidence": "0.9996",
+                        "content": "चिंता"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "192.16",
+                "end_time": "192.28",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "में"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "192.28",
+                "end_time": "192.47",
+                "alternatives": [
+                    {
+                        "confidence": "0.8011",
+                        "content": "है"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "192.68",
+                "end_time": "192.81",
+                "alternatives": [
+                    {
+                        "confidence": "0.9636",
+                        "content": "कि"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "192.81",
+                "end_time": "193.47",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "पाकिस्तान"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "193.47",
+                "end_time": "193.58",
+                "alternatives": [
+                    {
+                        "confidence": "0.9996",
+                        "content": "में"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "193.58",
+                "end_time": "193.91",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "ऐसा"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "193.91",
+                "end_time": "194.27",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "हुआ"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "194.28",
+                "end_time": "194.58",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "तो"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "194.58",
+                "end_time": "194.7",
+                "alternatives": [
+                    {
+                        "confidence": "0.5519",
+                        "content": "न"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "194.7",
+                "end_time": "195.04",
+                "alternatives": [
+                    {
+                        "confidence": "0.9969",
+                        "content": "जाने"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "195.05",
+                "end_time": "195.25",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "क्या"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "start_time": "195.25",
+                "end_time": "195.65",
+                "alternatives": [
+                    {
+                        "confidence": "1.0",
+                        "content": "होगा"
+                    }
+                ],
+                "type": "pronunciation"
+            },
+            {
+                "alternatives": [
+                    {
+                        "confidence": "0.0",
+                        "content": "।"
+                    }
+                ],
+                "type": "punctuation"
+            }
+        ]
+    },
+    "status": "COMPLETED"
+}
