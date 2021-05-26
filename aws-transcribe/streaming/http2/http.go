@@ -4,7 +4,6 @@ import (
 	"bytes"
 	"context"
 	"crypto/sha1"
-	"crypto/tls"
 	"encoding/hex"
 	"encoding/json"
 	"fmt"
@@ -17,6 +16,7 @@ import (
 
 	"github.com/aws/aws-sdk-go-v2/aws"
 	v4 "github.com/aws/aws-sdk-go-v2/aws/signer/v4"
+	"golang.org/x/net/http2"
 )
 
 type Data struct {
@@ -40,25 +40,24 @@ const (
 )
 
 func main() {
-	mux := http.NewServeMux()
-	mux.HandleFunc("/", home)
-
-	server := http.Server{
-		Addr:    ":3001",
-		Handler: mux,
-		TLSConfig: &tls.Config{
-			NextProtos: []string{"h2", "http/1.1"},
-		},
+	var httpServer = http.Server{
+		Addr: ":9191",
 	}
 
-	fmt.Printf("Server listening on %s", server.Addr)
-	go http.ListenAndServe(":3000", mux)
-	if err := server.ListenAndServeTLS("certs/localhost.crt", "certs/localhost.key"); err != nil {
+	var http2Server = http2.Server{}
+	_ = http2.ConfigureServer(&httpServer, &http2Server)
+
+	http.HandleFunc("/", home)
+	log.Printf("Go Backend: { HTTPVersion = 2 }; serving on https://localhost:9191/")
+
+	if err := httpServer.ListenAndServeTLS("certs/localhost.crt", "certs/localhost.key"); err != nil {
 		fmt.Println("\n connection error:", err.Error())
 	}
 }
 
 func home(w http.ResponseWriter, r *http.Request) {
+
+	fmt.Printf("Req: %s %s\n", r.Host, r.URL.Path)
 
 	fmt.Fprint(w, "Hello HTTP/2")
 
@@ -138,3 +137,29 @@ func home(w http.ResponseWriter, r *http.Request) {
 	//spew.Dump(string(content))
 	fmt.Println("\n", string(content))
 }
+
+// func signature()  {
+
+// 	//-----Request values ----------//
+// 	method := "POST"
+// service := "transcribestreaming"
+// host := "transcribestreaming.us-east-1.amazonaws.com"
+// region := "us-east-1"
+// endpoint := "https://transcribestreaming.us-east-1.amazonaws.com"
+// request_parameters := ""
+
+// //-----Create signing key---------//
+
+// }
+
+// func getSignatureKey(key string, dateStamp string, regionName string, serviceName string) error {
+
+// 	kdate :=
+// }
+
+// func ComputeHmac256(data string,secret []byte) error  {
+// 	key := []byte(secret)
+// 	h := hmac.New(sha256.New, key)
+// 	h.Write([]byte(data))
+// 	return base64.StdEncoding.EncodeToString(h.Sum(nil))
+// }
