@@ -48,9 +48,9 @@ var (
 	}
 	oauthConfig = &oauth2.Config{
 		//RedirectURL: "https://abd7feb4151d.ngrok.io/callback",
-		RedirectURL:  "https://aec573c036d2.ngrok.io/callback",
-		ClientID:     "RagRtzP8TLyIbjzYVGIsFQ",
-		ClientSecret: "F65tiTOVh1HWT38Tc8dZZunvKa2PGsK2",
+		RedirectURL:  "https://fdcf7fdb0071.ngrok.io/callback",
+		ClientID:     "4okPze9Taa7lBtrPnpLA",
+		ClientSecret: "6wxTGdRGS7kKiyzkdx8xrT74qrDv1Cz1",
 		Scopes:       []string{"https://www.googleapis.com/auth/userinfo.email"},
 		Endpoint:     endPoint,
 	}
@@ -132,6 +132,8 @@ func handleCallback(w http.ResponseWriter, r *http.Request) {
 }
 
 func getRecordings(acess_token string, userID string, userCreatedAt string) {
+	// refer this for info on downloading recordings
+	// 	https://devforum.zoom.us/t/download-zoom-meeting-recording-programatically/13279
 
 	const layoutISO = "2006-01-02" //example date
 
